@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export function Waxing() {
+export function Lifts() {
   return (
-    <div className="relative bg-white py-16 sm:py-24">
+    <div id="lifts" className="relative bg-white py-16 sm:py-24">
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">
           <div
@@ -47,44 +47,23 @@ export function Waxing() {
           <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:max-w-none lg:px-0 lg:py-20">
             {/* Testimonial card*/}
             <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
-              <Image
-                className="absolute inset-0 h-full w-full object-cover"
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/eyebrows-6_ybkep1.webp"
-                alt="The process of eyebrow waxing"
-                fill
-                unoptimized
-              />
-              <div className="absolute inset-0 bg-rose-500/10 mix-blend-multiply" />
-              <div className="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-20" />
-              <div className="relative px-8">
-                <blockquote className="mt-8">
-                  <div className="relative text-lg font-medium text-white md:flex-grow">
-                    <p className="relative">
-                      Our professional stylists will shape and enhance your
-                      brows to perfection.
-                    </p>
-                  </div>
-                </blockquote>
+              <div>
+                <Image
+                  className="absolute inset-0 h-full w-full object-cover"
+                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/curling_u5rexx.webp"
+                  alt="The process of curling your lashes"
+                  fill
+                  unoptimized
+                />
               </div>
-            </div>
-            {/* Image 2? */}
-            <div className="relative mt-6 overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
-              <Image
-                className="absolute inset-0 h-full w-full object-cover"
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/brow_tint_oa9rpn.webp"
-                alt="The process of eyebrow tinting"
-                fill
-                unoptimized
-              />
               <div className="absolute inset-0 bg-rose-500/10 mix-blend-multiply" />
               <div className="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-20" />
               <div className="relative px-8">
                 <blockquote className="mt-8">
                   <div className="relative text-lg font-medium text-white md:flex-grow">
                     <p className="relative">
-                      Tinting the eyebrows results in a darker, more defined
-                      appearance, enhancing the natural shape and creating a
-                      polished look.
+                      We curl and tint your natural lashes by applying a perming
+                      solution.
                     </p>
                   </div>
                 </blockquote>
@@ -96,37 +75,42 @@ export function Waxing() {
         <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:px-0">
           {/* Content area */}
           <div className="prose prose-rose pt-12 text-zinc-500 sm:pt-16 lg:pt-20">
-            <h3 className="">What is eyebrow waxing?</h3>
+            <h3 className="">What is a lash lift and tint?</h3>
             <div className="mt-6 space-y-6 text-zinc-500">
               <p className="text-base">
-                Eyebrow waxing is a hair removal method that involves using hot
-                or cold wax to remove unwanted hairs from the eyebrows. It’s a
-                quick and effective way to shape and define brows, leaving them
-                neat and tidy.
+                An eyelash lift is a beauty treatment that uses a perming
+                solution to curl your natural lashes upwards, giving them a more
+                lifted and curved appearance. The process typically involves
+                applying a perming solution to your lashes, followed by a
+                neutralizing solution to set the curl. Once set, we tint your
+                natural eyelashes using a safe, semi-permanent, black vegetable
+                dye. The process takes about an hour, and the results last 6-8
+                weeks.
               </p>
-              <h3>The benefits of eyebrow lamination and waxing</h3>
+              <h3>The benefits of lifting and tinting your lashes</h3>
               <ul role="list">
                 <li>
-                  Adds volume and shape to the brows: Eyebrow lamination and
-                  waxing are great for adding volume and shape to the brows,
-                  giving you the appearance of fuller and more defined brows.
+                  No need for mascara or eyelash curlers: We lift, curl and tint
+                  your lashes with an eyelash lift and tint, eliminating the
+                  need for daily mascara or eyelash curlers.
                 </li>
                 <li>
-                  Lasts for up to 8 weeks: Eyebrow lamination lasts up to 8
-                  weeks, so you won’t have to worry about maintaining your brows
-                  as often.
+                  Low-maintenance: Eyelash lifts require minimal upkeep, making
+                  them a perfect solution for busy individuals who want to
+                  enhance their natural beauty without spending too much time on
+                  their beauty routine.
                 </li>
                 <li>
-                  Easy to maintain: After undergoing eyebrow lamination, you can
-                  comb your brows in the desired shape, and they’ll stay that
-                  way for the duration of the treatment.
-                </li>
-                <li>
-                  Pain-free: Both eyebrow lamination and waxing are relatively
-                  pain-free, with the occasional twinge or discomfort being the
-                  only side effect.
+                  Enhanced natural look: An eyelash lift gives your lashes a
+                  natural look, making your eyes appear brighter and more
+                  youthful. It can also make your lashes appear fuller and
+                  longer, making them more noticeable.
                 </li>
               </ul>
+              <p>
+                An eyelash lift and tint is a great way to enhance natural
+                lashes and achieve a brighter, youthful appearance.
+              </p>
             </div>
           </div>
 
@@ -135,7 +119,7 @@ export function Waxing() {
             <div className="mt-10">
               <Link href="/booking">
                 <p className="text-base font-medium text-rose-600">
-                  Book now for our signature brow treatments
+                  Book now for a lash treatment
                   <span aria-hidden="true"> &rarr;</span>
                 </p>
               </Link>

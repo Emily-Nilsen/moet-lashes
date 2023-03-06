@@ -3,13 +3,11 @@ import Head from 'next/head'
 import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
+import { HeaderNav } from '@/components/HeaderNav'
 import { Hero } from '@/components/Hero'
 import { Instagram } from '@/components/Instagram'
-import { Pricing } from '@/components/Pricing'
-import { PrimaryFeatures } from '@/components/PrimaryFeatures'
-import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import { Testimonials } from '@/components/Testimonials'
+
+import { CustomerReviews } from '@/components/CustomerReviews'
 
 export default function Home() {
   return (
@@ -28,11 +26,10 @@ export default function Home() {
           content="moet lashes, lashes, lash extensions, lash lift, lash tint, brow tint, brow lamination, lash and brow treatments, lash and brow treatments cairns, eyelash extensions Cairns, lash and brow treatment, eyebrow styling Cairns, beauty salon Cairns, eyelash extensions and eyebrow styling Cairns, beauty salon services Cairns, eyelash extension techniques, eyebrow styling trends"
         />
       </Head>
-      <Header />
+
       <main>
         <Hero />
-        {/* <PrimaryFeatures /> */}
-        {/* <SecondaryFeatures /> */}
+
         <CallToAction
           imgUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/moetlashes-img-2_myvur9.webp"
           title="Get the look you"
@@ -41,6 +38,7 @@ export default function Home() {
           btnText="Book now"
         />
         <Instagram />
+        <CustomerReviews />
         {/* <Pricing /> */}
         {/* <Faqs /> */}
       </main>

@@ -20,16 +20,12 @@ a {
 }
 
 /* Bold mixed with normal/italic */
-h1 {
+h1,
+h3 {
   font-family: dejanire-headline, serif;
 }
 
 /* Bold mixed with light */
 h2 {
   font-family: basic-sans, sans-serif;
-}
-
-/* looks nice in italic for another type of heading */
-h3 {
-  font-family: dejanire-headline, serif;
 }

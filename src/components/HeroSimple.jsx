@@ -1,10 +1,12 @@
 import Image from 'next/image'
+import { HeaderNav } from './HeaderNav'
 import { motion } from 'framer-motion'
 
-export function HeroSimple(props) {
+export function HeroSimple({ image, textWhite, textPink }) {
   return (
     <section>
-      <div className="relative">
+      <div className="relative z-0">
+        <HeaderNav />
         <div className="absolute inset-x-0 bottom-0 h-1/2 bg-zinc-100" />
 
         <div className="relative">
@@ -19,11 +21,10 @@ export function HeroSimple(props) {
               className="relative h-full w-full object-cover"
             >
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/eyebrows-4_nm4bcm.webp"
+                src={image}
                 alt="Eyebrow styling hero image"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="center"
+                fill
+                className="object-cover"
                 priority
                 unoptimized
               />
@@ -39,8 +40,10 @@ export function HeroSimple(props) {
           </div>
           <div className="relative px-4 py-24 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
             <h1 className="mt-24 -mb-16 pt-20 text-left text-5xl font-extrabold tracking-tight sm:text-6xl md:mt-48 lg:text-7xl">
-              <span className="text-white">Brow </span>
-              <span className="font-medium italic text-rose-200">styling</span>
+              <span className="text-white">{textWhite} </span>
+              <span className="font-medium italic text-rose-200">
+                {textPink}
+              </span>
             </h1>
           </div>
         </div>

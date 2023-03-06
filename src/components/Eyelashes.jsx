@@ -1,16 +1,14 @@
 import Image from 'next/image'
 
-export function Lamination() {
+export function Eyelashes() {
   return (
     <div className="overflow-hidden bg-white">
       <div className="relative mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
-            <h2 className="text-lg font-semibold text-rose-600">
-              Our ultimate guide to
-            </h2>
+            <h2 className="text-lg font-semibold text-rose-600">Flat-based</h2>
             <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-zinc-900 sm:text-4xl">
-              Eyebrow lamination & waxing
+              Eyelash extensions
             </h3>
           </div>
         </div>
@@ -54,14 +52,14 @@ export function Lamination() {
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
                   <Image
                     className="rounded-lg object-cover object-center shadow-lg"
-                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/eyebrows-5_mqothu.webp"
+                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/eyelash_individual_hwktih.webp"
                     alt="The process of eyebrow lamination"
-                    width={2000}
-                    height={1334}
+                    width={1000}
+                    height={681}
                   />
                 </div>
                 <figcaption className="mt-3 flex text-sm text-zinc-500">
-                  We apply a unique lamination solution to the brows.
+                  We attach eyelash extensions individually
                 </figcaption>
               </figure>
             </div>
@@ -69,27 +67,37 @@ export function Lamination() {
           <div className="mt-8 lg:mt-0">
             <div className="mx-auto max-w-prose text-base lg:max-w-none">
               <p className="text-lg text-zinc-500">
-                The shape and thickness of your eyebrows can dramatically change
-                your overall appearance. While some people have naturally full
-                and thick eyebrows, others need to work a little harder to
-                achieve their desired look.
+                Are you looking to lengthen, define and add volume to your
+                lashes? Our premium eyelash extensions are the perfect solution.
               </p>
             </div>
             <div className="prose prose-rose mx-auto mt-5 text-zinc-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+              <h3>Premium eyelash extensions with unique quality</h3>
+
+              <ul role="list">
+                <li>
+                  Our premium eyelash extensions have a unique flat base,
+                  ensuring maximum adhesion. Our skilled technicians attach each
+                  extension individually for a natural and stunning look.
+                </li>
+                <li>
+                  Our premium eyelash extensions are made from high-quality PBT
+                  material, ensuring a soft, lightweight and natural feel.
+                </li>
+                <li>
+                  Our eyelash extensions are certified by SGS and MSDS for their
+                  premium quality.
+                </li>
+                <li>
+                  The unique curvature technique provides a long-lasting curl,
+                  and the high-temperature processing sterilizes each extension.
+                </li>
+              </ul>
               <p>
-                If you’re looking to add volume and shape to your brows, eyebrow
-                lamination and waxing might be the answer you’re looking for.
-                This comprehensive guide will cover everything you need to know
-                about eyebrow lamination and waxing, including the benefits,
-                procedure, and tips for perfect brows.
-              </p>
-              <h3>What is eyebrow lamination?</h3>
-              <p>
-                Eyebrow lamination is a semi-permanent treatment that uses a
-                unique solution to reshape, tint, and set the eyebrows in place
-                for up to 6-8 weeks. The solution works by “laminating” the brow
-                hairs and keeping them in place, giving the appearance of fuller
-                and fluffier brows.
+                Get a natural and stunning look with our premium quality eyelash
+                extensions, individually attached by skilled technicians and
+                certified for their unique flat base and high-quality PBT
+                material.
               </p>
             </div>
           </div>

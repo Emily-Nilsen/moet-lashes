@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
 import { HeroSimple } from '@/components/HeroSimple'
 import { Lamination } from '@/components/Lamination'
 import { Waxing } from '@/components/Waxing'
 
-export default function Pricing() {
+export default function Brows() {
   return (
     <>
       <Head>
@@ -20,9 +19,13 @@ export default function Pricing() {
           content="eyebrow lamination Cairns, brow lamination Cairns, eyebrow waxing Cairns, brow waxing Cairns, eyebrow styling Cairns, brow styling Cairns"
         />
       </Head>
-      <Header />
+
       <main>
-        <HeroSimple />
+        <HeroSimple
+          image="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/garin-chadwick-RiZr1-ndmcY-unsplash_mhwoaj.jpg"
+          textWhite="Brow"
+          textPink="styling"
+        />
         <Lamination />
         <Waxing />
       </main>

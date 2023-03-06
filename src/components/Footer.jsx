@@ -63,7 +63,7 @@ export function Footer() {
                 </div>
               </Link>
               <p className="max-w-xl text-base text-zinc-500">
-                Enhance your eyes with subtle to bold definition.
+                Experience the luxury of Moët Lashes.
               </p>
               <div className="flex space-x-6">
                 {navigation.social.map((item) => (
