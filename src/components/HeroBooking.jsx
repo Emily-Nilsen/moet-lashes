@@ -133,7 +133,7 @@ export function HeroBooking() {
                       </h3>
                       <p className="mt-4 text-base text-zinc-500">
                         {feature.description.map((item, i) => (
-                          <div>{item}</div>
+                          <div key={i}>{item}</div>
                         ))}
                       </p>
                     </div>
