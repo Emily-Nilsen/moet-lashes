@@ -135,7 +135,7 @@ export function LashesPricing() {
           <h2 className="text-base font-semibold leading-7 text-rose-500">
             Lash Extensions
           </h2>
-          <h1 className="mt-2 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
+          <h1 className="mt-2 text-4xl font-bold leading-tight tracking-tight text-zinc-900 sm:text-5xl">
             Premium eyelash extensions
           </h1>
         </div>

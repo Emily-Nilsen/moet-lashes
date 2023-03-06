@@ -37,7 +37,7 @@ export function CallToAction({
         </div>
         <div className="relative mx-auto max-w-7xl px-6 py-12 sm:px-6 md:py-24 lg:px-8">
           <div className="lg:ml-auto lg:w-1/2 lg:px-20">
-            <h3 className="mt-2 text-4xl font-extrabold tracking-tight text-rose-200 sm:text-5xl">
+            <h3 className="mt-2 text-4xl font-extrabold leading-tight tracking-tight text-rose-200 sm:text-5xl">
               {title}{' '}
               <span className="font-normal italic text-white">
                 {titleEmphasis}

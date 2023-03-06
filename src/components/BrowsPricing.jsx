@@ -54,7 +54,7 @@ export function BrowsPricing() {
           <h2 className="text-base font-semibold leading-7 text-rose-400">
             Get the Perfect Arch
           </h2>
-          <h1 className="pb-2 text-4xl font-extrabold text-white sm:text-center sm:text-5xl">
+          <h1 className="pb-2 text-4xl font-extrabold leading-tight text-white sm:text-center sm:text-5xl">
             Brow services and pricing
           </h1>
         </div>

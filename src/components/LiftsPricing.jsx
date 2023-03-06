@@ -62,7 +62,7 @@ export function LiftsPricing() {
           <h2 className="text-base font-semibold leading-7 text-rose-500">
             Lifts & Tints
           </h2>
-          <h1 className="pb-2 text-4xl font-extrabold text-zinc-900 sm:text-center sm:text-5xl">
+          <h1 className="pb-2 text-4xl font-extrabold leading-tight text-zinc-900 sm:text-center sm:text-5xl">
             Pricing for lash{' '}
             <span className="font-medium italic text-rose-400">lifts </span> and
             tints

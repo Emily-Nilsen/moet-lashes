@@ -52,7 +52,10 @@ export function LashesFaqs() {
       />
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h3 id="faq-title" className="text-4xl font-extrabold text-zinc-800">
+          <h3
+            id="faq-title"
+            className="text-4xl font-extrabold leading-tight text-zinc-800"
+          >
             Frequently asked{' '}
             <span className="font-medium italic text-rose-400">questions </span>
           </h3>

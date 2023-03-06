@@ -165,7 +165,7 @@ export function Instagram() {
     <div className="bg-white sm:pb-0">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:pt-24 sm:pb-16 lg:px-8">
         <div className="text-center">
-          <h1 className="mt-1 text-4xl font-extrabold text-zinc-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
+          <h1 className="mt-1 text-4xl font-extrabold leading-tight text-zinc-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
             Join us on{' '}
             <span className="font-medium italic text-rose-400">Instagram</span>.
           </h1>
