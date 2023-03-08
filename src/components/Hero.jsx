@@ -37,7 +37,32 @@ export function Hero() {
       <HeaderNav />
       <div className="bg-rose-50 pb-6 sm:pb-10">
         <header className="relative bg-zinc-800 pb-36">
-          <div className="absolute inset-0">
+          {/* Mobile device */}
+          <div className="absolute inset-0 sm:hidden">
+            <motion.div
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                duration: 0.5,
+                type: 'fade',
+              }}
+              className="h-full w-full object-cover"
+            >
+              <Image
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/home-hero-mobile-v2_iuy2gz.webp"
+                alt="Moët Lashes"
+                fill
+                priority
+                className="object-cover object-left"
+              />
+            </motion.div>
+            <div
+              className="to-t absolute inset-0 bg-gradient-to-b from-zinc-800"
+              aria-hidden="true"
+            />
+          </div>
+          {/* Large screen */}
+          <div className="absolute inset-0 hidden sm:block">
             <motion.div
               animate={{ opacity: 1 }}
               initial={{ opacity: 0 }}
