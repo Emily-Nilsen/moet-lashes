@@ -39,23 +39,15 @@ export function Hero() {
         <header className="relative bg-zinc-800 pb-36">
           {/* Mobile device */}
           <div className="absolute inset-0 sm:hidden">
-            <motion.div
-              animate={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-              transition={{
-                duration: 0.5,
-                type: 'fade',
-              }}
-              className="h-full w-full object-cover"
-            >
+            <div className="h-full w-full object-cover">
               <Image
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/home-hero-mobile-v2_iuy2gz.webp"
                 alt="Moët Lashes"
                 fill
                 priority
-                className="object-cover object-left"
+                className="animate-fade-in object-cover object-left"
               />
-            </motion.div>
+            </div>
             <div
               className="to-t absolute inset-0 bg-gradient-to-b from-zinc-800"
               aria-hidden="true"
@@ -63,23 +55,15 @@ export function Hero() {
           </div>
           {/* Large screen */}
           <div className="absolute inset-0 hidden sm:block">
-            <motion.div
-              animate={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-              transition={{
-                duration: 0.5,
-                type: 'fade',
-              }}
-              className="h-full w-full object-cover"
-            >
+            <div className="h-full w-full object-cover">
               <Image
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moe-hero_qq11pi.webp"
                 alt="Moët Lashes"
                 fill
                 priority
-                className="object-cover"
+                className="animate-fade-in object-cover"
               />
-            </motion.div>
+            </div>
             <div
               className="to-t absolute inset-0 bg-gradient-to-b from-zinc-800"
               aria-hidden="true"
@@ -156,7 +140,7 @@ export function Hero() {
           {/* Lashes */}
           <div className="mx-auto max-w-7xl px-6 py-12 sm:py-20 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h1 className="mx-auto mt-1 max-w-3xl text-4xl font-normal leading-tight text-rose-400 sm:text-5xl sm:tracking-tight lg:text-6xl">
+              <h1 className="mx-auto mt-1 max-w-3xl animate-fade-in text-4xl font-normal leading-tight text-rose-400 sm:text-5xl sm:tracking-tight lg:text-6xl">
                 The secret to
                 <span className="font-semibold italic text-zinc-900">
                   {' '}

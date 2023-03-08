@@ -55,15 +55,7 @@ export function HeroBooking() {
         <header className="relative bg-zinc-800 pb-36">
           {/* Mobile device */}
           <div className="absolute inset-0 sm:hidden">
-            <motion.div
-              whileInView={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-              transition={{
-                duration: 0.5,
-                type: 'fade',
-              }}
-              className="h-full w-full object-cover"
-            >
+            <div className="h-full w-full animate-fade-in object-cover">
               <Image
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/booking-mobile-hero_jfpvfj.webp"
                 alt="Moët Lashes"
@@ -71,7 +63,7 @@ export function HeroBooking() {
                 priority
                 className="object-cover"
               />
-            </motion.div>
+            </div>
             <div className="absolute inset-0 bg-zinc-900/20" />
             <div
               className="absolute inset-0 bg-gradient-to-b from-zinc-800"
@@ -80,15 +72,7 @@ export function HeroBooking() {
           </div>
           {/* Large device */}
           <div className="absolute inset-0 hidden sm:block">
-            <motion.div
-              whileInView={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-              transition={{
-                duration: 0.5,
-                type: 'fade',
-              }}
-              className="h-full w-full object-cover"
-            >
+            <div className="h-full w-full animate-fade-in object-cover">
               <Image
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moet-hero_gkhyyy.webp"
                 alt="Moët Lashes"
@@ -96,7 +80,7 @@ export function HeroBooking() {
                 priority
                 className="object-cover"
               />
-            </motion.div>
+            </div>
             <div className="absolute inset-0 bg-zinc-900/20" />
             <div
               className="absolute inset-0 bg-gradient-to-b from-zinc-800"
@@ -134,20 +118,9 @@ export function HeroBooking() {
               </h2>
               <div className="grid grid-cols-1 gap-y-12 sm:gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
                 {features.map((feature, i) => (
-                  <motion.div
-                    initial={{
-                      opacity: 0,
-                      y: 50,
-                    }}
-                    animate={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{
-                      duration: 0.5,
-                      delay: i * 0.2,
-                      ease: 'easeOut',
-                    }}
+                  <div
                     key={i}
-                    className="flex flex-col rounded-2xl bg-white shadow-xl"
+                    className="flex animate-fade-in flex-col rounded-2xl bg-white shadow-xl"
                   >
                     <div className="relative flex-1 px-6 py-8 md:px-8">
                       <h3 className="text-2xl font-medium text-zinc-800">
@@ -176,7 +149,7 @@ export function HeroBooking() {
                         {feature.link_name}
                       </div>
                     </Link>
-                  </motion.div>
+                  </div>
                 ))}
               </div>
             </section>
