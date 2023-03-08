@@ -17,6 +17,16 @@ export function CallToAction({
     <section id="book-today" className="relative overflow-hidden">
       <div className="relative bg-zinc-800">
         <div className="h-full bg-zinc-800 lg:absolute lg:left-0 lg:h-full lg:w-1/2">
+          {/* Mobile */}
+          <div className="relative h-60 w-full object-cover sm:hidden sm:h-96 lg:h-full">
+            <Image
+              src={imgUrl}
+              alt="Add volume and length"
+              fill
+              className="object-cover"
+            />
+          </div>
+          {/* Desktop */}
           <motion.div
             whileInView={{ opacity: 1 }}
             initial={{ opacity: 0 }}
@@ -24,13 +34,12 @@ export function CallToAction({
               duration: 0.7,
               type: 'fade',
             }}
-            className="relative h-60 w-full object-cover sm:h-96 lg:h-full"
+            className="relative hidden h-60 w-full object-cover sm:block sm:h-96 lg:h-full"
           >
             <Image
               src={imgUrl}
               alt="Add volume and length"
               fill
-              // unoptimized
               className="object-cover"
             />
           </motion.div>

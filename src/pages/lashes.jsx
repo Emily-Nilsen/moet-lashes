@@ -29,7 +29,8 @@ export default function Lashes() {
 
       <main>
         <HeroSimple
-          image="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moetlashes-img-3-gradient_qfkbz0.webp"
+          imageDesktop="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moetlashes-img-3-gradient_qfkbz0.webp"
+          imageMobile="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/lashes-mobile_qekxcl.webp"
           textWhite="Lash"
           textPink="extensions"
         />

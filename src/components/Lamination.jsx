@@ -52,6 +52,17 @@ export function Lamination() {
             </svg>
             <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
+                {/* Mobile */}
+                <div className="aspect-w-12 aspect-h-7 sm:hidden lg:aspect-none">
+                  <Image
+                    className="rounded-lg object-cover object-center shadow-lg"
+                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyebrows-5_mqothu.webp"
+                    alt="The process of eyebrow lamination"
+                    width={2000}
+                    height={1334}
+                  />
+                </div>
+                {/* Desktop */}
                 <motion.div
                   whileInView={{ opacity: 1 }}
                   initial={{ opacity: 0 }}
@@ -59,7 +70,7 @@ export function Lamination() {
                     duration: 0.5,
                     type: 'fade',
                   }}
-                  className="aspect-w-12 aspect-h-7 lg:aspect-none"
+                  className="aspect-w-12 aspect-h-7 hidden sm:block lg:aspect-none"
                 >
                   <Image
                     className="rounded-lg object-cover object-center shadow-lg"

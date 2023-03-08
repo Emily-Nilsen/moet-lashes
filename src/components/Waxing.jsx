@@ -46,7 +46,28 @@ export function Waxing() {
             </svg>
           </div>
           <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:max-w-none lg:px-0 lg:py-20">
-            {/* Testimonial card*/}
+            {/* Mobile */}
+            <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl sm:hidden">
+              <Image
+                className="absolute inset-0 h-full w-full object-cover"
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyebrows-6_ybkep1.webp"
+                alt="The process of eyebrow waxing"
+                fill
+              />
+              <div className="absolute inset-0 bg-rose-500/10 mix-blend-multiply" />
+              <div className="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-20" />
+              <div className="relative px-8">
+                <blockquote className="mt-8">
+                  <div className="relative text-lg font-medium text-white md:flex-grow">
+                    <p className="relative">
+                      Our professional stylists will shape and enhance your
+                      brows to perfection.
+                    </p>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            {/* Desktop*/}
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -54,7 +75,7 @@ export function Waxing() {
                 duration: 0.5,
                 type: 'fade',
               }}
-              className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl"
+              className="relative hidden overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl sm:block"
             >
               <Image
                 className="absolute inset-0 h-full w-full object-cover"

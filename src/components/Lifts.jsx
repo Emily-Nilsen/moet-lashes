@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export function Lifts() {
   return (
-    <div id="lifts" className="relative bg-white py-16 sm:py-24">
+    <div id="lifts" className="relative bg-white pb-16 sm:py-24">
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">
           <div
@@ -48,6 +48,16 @@ export function Lifts() {
           <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:max-w-none lg:px-0 lg:py-20">
             {/* Testimonial card*/}
             <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
+              {/* Mobile */}
+              <div>
+                <Image
+                  className="absolute inset-0 h-full w-full object-cover sm:hidden"
+                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/curling_u5rexx.webp"
+                  alt="The process of curling your lashes"
+                  fill
+                />
+              </div>
+              {/* Desktop */}
               <motion.div
                 whileInView={{ opacity: 1 }}
                 initial={{ opacity: 0 }}
@@ -57,11 +67,10 @@ export function Lifts() {
                 }}
               >
                 <Image
-                  className="absolute inset-0 h-full w-full object-cover"
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/curling_u5rexx.webp"
+                  className="absolute inset-0 hidden h-full w-full object-cover sm:block"
+                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/curling_u5rexx.webp"
                   alt="The process of curling your lashes"
                   fill
-                  unoptimized
                 />
               </motion.div>
               <div className="absolute inset-0 bg-rose-500/10 mix-blend-multiply" />

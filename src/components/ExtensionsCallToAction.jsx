@@ -7,6 +7,16 @@ export function ExtensionsCallToAction() {
   return (
     <div className="relative bg-zinc-800">
       <div className="h-96 bg-rose-300 sm:absolute sm:left-0 sm:h-full sm:w-1/2">
+        {/* Mobile */}
+        <div className="relative h-full w-full object-cover sm:hidden">
+          <Image
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moetlashes-img-1_olyxfe.webp"
+            alt="Add volume and length"
+            fill
+            className="h-full w-full object-cover"
+          />
+        </div>
+        {/* Desktop */}
         <motion.div
           whileInView={{ opacity: 1 }}
           initial={{ opacity: 0 }}
@@ -14,15 +24,13 @@ export function ExtensionsCallToAction() {
             duration: 0.5,
             type: 'fade',
           }}
-          className="relative h-full w-full object-cover"
+          className="relative hidden h-full w-full object-cover sm:block"
         >
           <Image
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moetlashes-img-1_olyxfe.webp"
             alt="Add volume and length"
             fill
             className="h-full w-full object-cover"
-            // priority
-            // unoptimized
           />
         </motion.div>
       </div>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { HeaderNav } from './HeaderNav'
 import { motion } from 'framer-motion'
 
-export function HeroSimple({ image, textWhite, textPink }) {
+export function HeroSimple({ imageDesktop, imageMobile, textWhite, textPink }) {
   return (
     <section>
       <motion.div className="relative z-0">
@@ -21,7 +21,7 @@ export function HeroSimple({ image, textWhite, textPink }) {
           <div className="absolute inset-0 sm:hidden">
             <div className="relative h-full w-full object-cover">
               <Image
-                src={image}
+                src={imageMobile}
                 alt="Eyebrow styling hero image"
                 fill
                 className="object-cover"
@@ -49,7 +49,7 @@ export function HeroSimple({ image, textWhite, textPink }) {
               className="relative h-full w-full object-cover"
             >
               <Image
-                src={image}
+                src={imageDesktop}
                 alt="Eyebrow styling hero image"
                 fill
                 className="object-cover"
