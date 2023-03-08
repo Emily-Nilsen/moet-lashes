@@ -45,7 +45,7 @@ export function Hero() {
                 alt="Moët Lashes"
                 fill
                 priority
-                className="animate-fade-in object-cover object-left"
+                className="object-cover object-left"
               />
             </div>
             <div
@@ -61,7 +61,7 @@ export function Hero() {
                 alt="Moët Lashes"
                 fill
                 priority
-                className="animate-fade-in object-cover"
+                className="object-cover"
               />
             </div>
             <div
@@ -140,7 +140,7 @@ export function Hero() {
           {/* Lashes */}
           <div className="mx-auto max-w-7xl px-6 py-12 sm:py-20 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h1 className="mx-auto mt-1 max-w-3xl animate-fade-in text-4xl font-normal leading-tight text-rose-400 sm:text-5xl sm:tracking-tight lg:text-6xl">
+              <h1 className="mx-auto mt-1 max-w-3xl text-4xl font-normal leading-tight text-rose-400 sm:text-5xl sm:tracking-tight lg:text-6xl">
                 The secret to
                 <span className="font-semibold italic text-zinc-900">
                   {' '}

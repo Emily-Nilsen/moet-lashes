@@ -55,7 +55,7 @@ export function HeroBooking() {
         <header className="relative bg-zinc-800 pb-36">
           {/* Mobile device */}
           <div className="absolute inset-0 sm:hidden">
-            <div className="h-full w-full animate-fade-in object-cover">
+            <div className="h-full w-full object-cover">
               <Image
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/booking-mobile-hero_jfpvfj.webp"
                 alt="Moët Lashes"
@@ -72,7 +72,7 @@ export function HeroBooking() {
           </div>
           {/* Large device */}
           <div className="absolute inset-0 hidden sm:block">
-            <div className="h-full w-full animate-fade-in object-cover">
+            <div className="h-full w-full object-cover">
               <Image
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moet-hero_gkhyyy.webp"
                 alt="Moët Lashes"
@@ -118,7 +118,18 @@ export function HeroBooking() {
               </h2>
               <div className="grid grid-cols-1 gap-y-12 sm:gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
                 {features.map((feature, i) => (
-                  <div
+                  <motion.div
+                    initial={{
+                      opacity: 0,
+                      y: 50,
+                    }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{
+                      duration: 0.7,
+                      delay: i * 0.2,
+                      ease: 'easeOut',
+                    }}
                     key={i}
                     className="flex animate-fade-in flex-col rounded-2xl bg-white shadow-xl"
                   >
@@ -149,7 +160,7 @@ export function HeroBooking() {
                         {feature.link_name}
                       </div>
                     </Link>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
             </section>
