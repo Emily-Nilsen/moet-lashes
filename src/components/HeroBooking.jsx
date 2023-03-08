@@ -53,7 +53,33 @@ export function HeroBooking() {
       <HeaderNav />
       <div className="bg-rose-50 pb-6 sm:pb-10">
         <header className="relative bg-zinc-800 pb-36">
-          <div className="absolute inset-0">
+          {/* Mobile device */}
+          <div className="absolute inset-0 sm:hidden">
+            <motion.div
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                duration: 0.5,
+                type: 'fade',
+              }}
+              className="h-full w-full object-cover"
+            >
+              <Image
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/booking-mobile-hero_jfpvfj.webp"
+                alt="Moët Lashes"
+                fill
+                priority
+                className="object-cover"
+              />
+            </motion.div>
+            <div className="absolute inset-0 bg-zinc-900/20" />
+            <div
+              className="absolute inset-0 bg-gradient-to-b from-zinc-800"
+              aria-hidden="true"
+            />
+          </div>
+          {/* Large device */}
+          <div className="absolute inset-0 hidden sm:block">
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -67,7 +93,6 @@ export function HeroBooking() {
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moet-hero_gkhyyy.webp"
                 alt="Moët Lashes"
                 fill
-                // unoptimized
                 priority
                 className="object-cover"
               />
@@ -114,11 +139,11 @@ export function HeroBooking() {
                       opacity: 0,
                       y: 50,
                     }}
-                    whileInView={{ opacity: 1, y: 0 }}
+                    animate={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{
-                      duration: 0.7,
-                      delay: i * 0.3,
+                      duration: 0.5,
+                      delay: i * 0.2,
                       ease: 'easeOut',
                     }}
                     key={i}
