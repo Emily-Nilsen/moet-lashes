@@ -106,7 +106,35 @@ export function Hero() {
               <h2 className="sr-only" id="contact-heading">
                 Cairns City eyelash extensions
               </h2>
-              <div className="grid grid-cols-1 gap-y-12 sm:gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+              {/* Mobile */}
+              <div className="grid grid-cols-1 gap-y-12 sm:hidden sm:gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+                {features.map((feature, i) => (
+                  <div
+                    key={i}
+                    className="flex flex-col rounded-2xl bg-white shadow-xl"
+                  >
+                    <div className="relative flex-1 px-6 py-8 md:px-8">
+                      <h3 className="text-2xl font-medium text-zinc-800">
+                        {feature.name_start}
+                        <span className="font-normal italic text-rose-400">
+                          {feature.name_end}
+                        </span>
+                      </h3>
+                      <p className="mt-4 text-base text-zinc-500">
+                        {feature.description}
+                      </p>
+                    </div>
+                    <Link href={feature.href} passHref>
+                      <div className="cursor-pointer rounded-bl-2xl rounded-br-2xl bg-rose-50 p-6 text-base font-medium capitalize text-rose-400 transition duration-300 ease-in-out hover:bg-rose-300 hover:text-white md:px-8">
+                        {feature.link_name}
+                        <span aria-hidden="true"> &rarr;</span>
+                      </div>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+              {/* Desktop */}
+              <div className="hidden grid-cols-1 gap-y-12 sm:grid sm:gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
                 {features.map((feature, i) => (
                   <motion.div
                     initial={{
