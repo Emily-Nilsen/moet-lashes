@@ -63,7 +63,7 @@ export function HeaderNav() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-rose-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link href="/" className="-m-1.5 p-1.5">
+            <div className="-m-1.5 p-1.5">
               <span className="sr-only">Moët Lashes</span>
               <Image
                 height={40}
@@ -71,7 +71,7 @@ export function HeaderNav() {
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/SVGs/moet-zinc_oj2esw.svg"
                 alt="Moët Lashes logo black"
               />
-            </Link>
+            </div>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"

@@ -124,7 +124,45 @@ export function HeroBooking() {
               <h2 className="sr-only" id="contact-heading">
                 Cairns City eyelash extensions
               </h2>
-              <div className="grid grid-cols-1 gap-y-12 sm:gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+              {/* Mobile */}
+              <div className="grid grid-cols-1 gap-y-12 sm:hidden sm:gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+                {features.map((feature, i) => (
+                  <div
+                    key={i}
+                    className="animate-fade-in flex flex-col rounded-2xl bg-white shadow-xl"
+                  >
+                    <div className="relative flex-1 px-6 py-8 md:px-8">
+                      <h3 className="text-2xl font-medium text-zinc-800">
+                        {feature.name_start}
+                        <span className="font-normal italic text-rose-400">
+                          {feature.name_end}
+                        </span>
+                      </h3>
+                      <p className="mt-4 text-base text-zinc-500">
+                        {feature.description.map((item, i) => (
+                          <div key={i}>{item}</div>
+                        ))}
+                      </p>
+                    </div>
+                    <Link
+                      rel={feature.rel ? feature.rel : null}
+                      target={feature.target ? feature.target : null}
+                      href={feature.href}
+                      passHref
+                    >
+                      <div className="group flex cursor-pointer items-center rounded-bl-2xl rounded-br-2xl bg-rose-50 p-6 text-base font-semibold capitalize text-zinc-700 transition duration-300 ease-in-out hover:bg-rose-300 hover:text-white md:px-8">
+                        <span>
+                          <feature.icon className="mr-2 h-5 w-5 text-rose-400 group-hover:text-rose-200" />
+                        </span>
+
+                        {feature.link_name}
+                      </div>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+              {/* Desktop */}
+              <div className="hidden grid-cols-1 gap-y-12 sm:grid sm:gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
                 {features.map((feature, i) => (
                   <motion.div
                     initial={{
