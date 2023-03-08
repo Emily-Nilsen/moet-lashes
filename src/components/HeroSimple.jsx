@@ -5,17 +5,24 @@ import { motion } from 'framer-motion'
 export function HeroSimple({ image, textWhite, textPink }) {
   return (
     <section>
-      <div className="relative z-0">
+      <motion.div className="relative z-0">
         <HeaderNav />
-        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-zinc-100" />
-
-        <div className="relative">
+        <motion.div
+          animate={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
+          transition={{
+            duration: 0.5,
+            type: 'fade',
+          }}
+          className="absolute inset-x-0 bottom-0 h-1/2 bg-zinc-100"
+        />
+        <div className="relative bg-zinc-800 ">
           <div className="absolute inset-0">
             <motion.div
-              whileInView={{ opacity: 1 }}
+              animate={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
-                duration: 0.8,
+                duration: 0.5,
                 type: 'fade',
               }}
               className="relative h-full w-full object-cover"
@@ -26,7 +33,7 @@ export function HeroSimple({ image, textWhite, textPink }) {
                 fill
                 className="object-cover"
                 priority
-                unoptimized
+                // unoptimized
               />
             </motion.div>
             <div
@@ -38,6 +45,7 @@ export function HeroSimple({ image, textWhite, textPink }) {
               aria-hidden="true"
             />
           </div>
+
           <div className="relative px-4 py-24 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
             <h1 className="mt-24 -mb-16 pt-20 text-left text-5xl font-extrabold tracking-tight sm:text-6xl md:mt-48 lg:text-7xl">
               <span className="text-white">{textWhite} </span>
@@ -47,7 +55,7 @@ export function HeroSimple({ image, textWhite, textPink }) {
             </h1>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }

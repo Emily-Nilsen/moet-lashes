@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 export function Lifts() {
   return (
@@ -47,7 +48,14 @@ export function Lifts() {
           <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:max-w-none lg:px-0 lg:py-20">
             {/* Testimonial card*/}
             <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
-              <div>
+              <motion.div
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  duration: 0.5,
+                  type: 'fade',
+                }}
+              >
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
                   src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/curling_u5rexx.webp"
@@ -55,7 +63,7 @@ export function Lifts() {
                   fill
                   unoptimized
                 />
-              </div>
+              </motion.div>
               <div className="absolute inset-0 bg-rose-500/10 mix-blend-multiply" />
               <div className="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-20" />
               <div className="relative px-8">

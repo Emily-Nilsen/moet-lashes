@@ -39,7 +39,7 @@ export function Hero() {
         <header className="relative bg-zinc-800 pb-36">
           <div className="absolute inset-0">
             <motion.div
-              whileInView={{ opacity: 1 }}
+              animate={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
                 duration: 0.5,
@@ -51,7 +51,6 @@ export function Hero() {
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moe-hero_qq11pi.webp"
                 alt="Moët Lashes"
                 fill
-                // unoptimized
                 priority
                 className="object-cover"
               />

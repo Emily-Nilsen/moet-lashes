@@ -11,12 +11,12 @@ export function PricingHeader() {
           whileInView={{ opacity: 1 }}
           initial={{ opacity: 0 }}
           transition={{
-            duration: 0.8,
+            duration: 0.5,
             type: 'fade',
           }}
         >
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/co_rgb:18181B,e_colorize:70/q_auto/Mo%C3%ABt%20Lashes/general/pricing_fazhzg.webp"
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/co_rgb:18181B,e_colorize:70/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/pricing_fazhzg.webp"
             alt="Moêt Lashes pricing"
             fill
             className="absolute inset-0 -z-10 h-full w-full object-cover"

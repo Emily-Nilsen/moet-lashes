@@ -11,18 +11,18 @@ export function ExtensionsCallToAction() {
           whileInView={{ opacity: 1 }}
           initial={{ opacity: 0 }}
           transition={{
-            duration: 0.8,
+            duration: 0.5,
             type: 'fade',
           }}
           className="relative h-full w-full object-cover"
         >
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653665551/Mo%C3%ABt%20Lashes/general/moetlashes-img-1_olyxfe.webp"
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moetlashes-img-1_olyxfe.webp"
             alt="Add volume and length"
             fill
             className="h-full w-full object-cover"
-            priority
-            unoptimized
+            // priority
+            // unoptimized
           />
         </motion.div>
       </div>

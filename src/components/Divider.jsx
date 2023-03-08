@@ -1,10 +1,19 @@
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 export function Divider() {
   return (
-    <div className="relative isolate w-screen overflow-hidden bg-gray-900 px-6 py-32 sm:py-48 lg:px-8">
+    <motion.div
+      whileInView={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      transition={{
+        duration: 0.5,
+        type: 'fade',
+      }}
+      className="relative isolate w-screen overflow-hidden bg-gray-900 px-6 py-32 sm:py-48 lg:px-8"
+    >
       <Image
-        src="https://res.cloudinary.com/dt3k2apqd/image/upload/co_rgb:18181B,e_colorize:60/q_auto/Mo%C3%ABt%20Lashes/general/natural_lashes_grlh3g.webp"
+        src="https://res.cloudinary.com/dt3k2apqd/image/upload/co_rgb:18181B,e_colorize:60/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/natural_lashes_grlh3g.webp"
         alt="Moët Lashes natural lashes"
         fill
         className="absolute inset-0 -z-10 h-full w-full object-cover"
@@ -62,6 +71,6 @@ export function Divider() {
           Our skilled stylists will enhance and shape your lashes to perfection.
         </p>
       </div> */}
-    </div>
+    </motion.div>
   )
 }

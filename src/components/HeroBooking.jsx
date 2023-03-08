@@ -58,16 +58,16 @@ export function HeroBooking() {
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
-                duration: 0.8,
+                duration: 0.5,
                 type: 'fade',
               }}
               className="h-full w-full object-cover"
             >
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/moet-hero_gkhyyy.webp"
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moet-hero_gkhyyy.webp"
                 alt="Moët Lashes"
                 fill
-                unoptimized
+                // unoptimized
                 priority
                 className="object-cover"
               />

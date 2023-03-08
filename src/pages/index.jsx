@@ -39,8 +39,6 @@ export default function Home() {
         />
         <Instagram />
         <CustomerReviews />
-        {/* <Pricing /> */}
-        {/* <Faqs /> */}
       </main>
       <Footer />
     </>

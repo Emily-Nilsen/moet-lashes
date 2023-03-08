@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 export function Eyelashes() {
   return (
@@ -49,15 +50,23 @@ export function Eyelashes() {
             </svg>
             <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                <motion.div
+                  whileInView={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  transition={{
+                    duration: 0.5,
+                    type: 'fade',
+                  }}
+                  className="aspect-w-12 aspect-h-7 lg:aspect-none"
+                >
                   <Image
                     className="rounded-lg object-cover object-center shadow-lg"
-                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/eyelash_individual_hwktih.webp"
+                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyelash_individual_hwktih.webp"
                     alt="The process of eyebrow lamination"
                     width={1000}
                     height={681}
                   />
-                </div>
+                </motion.div>
                 <figcaption className="mt-3 flex text-sm text-zinc-500">
                   We attach eyelash extensions individually
                 </figcaption>

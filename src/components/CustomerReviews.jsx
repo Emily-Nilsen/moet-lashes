@@ -27,7 +27,7 @@ const reviews = {
       `,
       author: 'Belinda Feher',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/v1673944962/Mo%C3%ABt%20Lashes/flowers/flower_26_pxapri.webp',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flower_26_pxapri.webp',
     },
     {
       id: 25,
@@ -47,7 +47,7 @@ const reviews = {
       `,
       author: 'Nats M.',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_24_q0lpfi.webp',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flower_24_q0lpfi.webp',
     },
     {
       id: 23,
@@ -57,7 +57,7 @@ const reviews = {
       `,
       author: 'Melisa Nieto',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_23_rhyihe.webp',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flower_23_rhyihe.webp',
     },
     {
       id: 22,
@@ -67,7 +67,7 @@ const reviews = {
       `,
       author: 'sally gardiner',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/pink_flowers_1_amihhe.webp',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/pink_flowers_1_amihhe.webp',
     },
     {
       id: 21,
@@ -77,7 +77,7 @@ const reviews = {
       `,
       author: 'Mil g',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-21_fznqii.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-21_fznqii.jpg',
     },
     {
       id: 20,
@@ -87,7 +87,7 @@ const reviews = {
       `,
       author: 'Tomoe Orland',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-20_konqqd.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-20_konqqd.jpg',
     },
     {
       id: 19,
@@ -97,7 +97,7 @@ const reviews = {
       `,
       author: 'Jenalyn Monge',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-19_kwg2gg.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-19_kwg2gg.jpg',
     },
     {
       id: 18,
@@ -107,7 +107,7 @@ const reviews = {
       `,
       author: 'Serina Ivy',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-18_kxuegh.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-18_kxuegh.jpg',
     },
     {
       id: 17,
@@ -117,7 +117,7 @@ const reviews = {
       `,
       author: 'Kym Harris',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-17_tykkme.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-17_tykkme.jpg',
     },
     {
       id: 16,
@@ -129,7 +129,7 @@ const reviews = {
       `,
       author: 'PAO24ify',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower-16_k4q6xx.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flower-16_k4q6xx.jpg',
     },
     {
       id: 15,
@@ -139,7 +139,7 @@ const reviews = {
       `,
       author: '内村葉',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-15_wtzotn.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-15_wtzotn.jpg',
     },
     {
       id: 14,
@@ -149,7 +149,7 @@ const reviews = {
       `,
       author: 'Elena Mitchell',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-14_rd87lm.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-14_rd87lm.jpg',
     },
     {
       id: 1,
@@ -159,7 +159,7 @@ const reviews = {
       `,
       author: 'Misato Liu',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-1_kqgq1t.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-1_kqgq1t.jpg',
     },
     {
       id: 2,
@@ -169,7 +169,7 @@ const reviews = {
       `,
       author: 'Su Lyisa Miles-Cadman',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-2_zmi5fi.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-2_zmi5fi.jpg',
     },
     {
       id: 3,
@@ -179,7 +179,7 @@ const reviews = {
       `,
       author: 'Yumie Seki',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-3_thxbvw.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-3_thxbvw.jpg',
     },
     {
       id: 4,
@@ -191,7 +191,7 @@ const reviews = {
       `,
       author: 'Yuka Avard',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-4_jwnnuc.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-4_jwnnuc.jpg',
     },
     {
       id: 5,
@@ -201,7 +201,7 @@ const reviews = {
       `,
       author: 'Chika Ritchie',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-5_c1rg9z.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-5_c1rg9z.jpg',
     },
     {
       id: 6,
@@ -211,7 +211,7 @@ const reviews = {
       `,
       author: 'Natsumi Ota',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-6_s6cfdz.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-6_s6cfdz.jpg',
     },
     {
       id: 7,
@@ -224,7 +224,7 @@ const reviews = {
       `,
       author: 'Yukie KloostermanHaneda',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-7_o6qg5s.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-7_o6qg5s.jpg',
     },
     {
       id: 8,
@@ -234,7 +234,7 @@ const reviews = {
       `,
       author: 'Sarah & Reina',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-8_kgvook.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-8_kgvook.jpg',
     },
     {
       id: 9,
@@ -246,7 +246,7 @@ const reviews = {
       `,
       author: 'Yuko Haintz',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-9_tfh3jf.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-9_tfh3jf.jpg',
     },
     {
       id: 10,
@@ -256,7 +256,7 @@ const reviews = {
       `,
       author: 'Masako Yamada',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-10_pumgy8.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-10_pumgy8.jpg',
     },
     {
       id: 11,
@@ -268,7 +268,7 @@ const reviews = {
       `,
       author: 'Tomomi Killian',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-11_wmhazs.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-11_wmhazs.jpg',
     },
     {
       id: 12,
@@ -278,7 +278,7 @@ const reviews = {
       `,
       author: 'Bernt Nilsen',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-12_nkyabh.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-12_nkyabh.jpg',
     },
     {
       id: 13,
@@ -288,7 +288,7 @@ const reviews = {
       `,
       author: 'nikita yonzone',
       avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-13_syzof9.jpg',
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-13_syzof9.jpg',
     },
   ],
 }
@@ -416,11 +416,8 @@ export function CustomerReviews() {
                       <Image
                         src={review.avatarSrc}
                         alt={`${review.author}.`}
-                        className="rounded-full"
-                        unoptimized={true}
-                        layout="fill"
-                        objectFit="cover"
-                        objectPosition="center"
+                        fill
+                        className="rounded-full object-cover"
                       />
                     </div>
                     <div className="ml-4">
