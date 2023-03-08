@@ -68,7 +68,7 @@ export function HeaderNav() {
               <Image
                 height={40}
                 width={104}
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/SVGs/moet-zinc_oj2esw.svg"
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/SVGs/moet-zinc_oj2esw.svg"
                 alt="Moët Lashes logo black"
               />
             </Link>

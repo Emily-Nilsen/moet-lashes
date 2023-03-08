@@ -30,7 +30,7 @@ export function CallToAction({
               src={imgUrl}
               alt="Add volume and length"
               fill
-              unoptimized
+              // unoptimized
               className="object-cover"
             />
           </motion.div>
