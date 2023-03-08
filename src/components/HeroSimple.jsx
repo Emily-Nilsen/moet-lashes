@@ -17,7 +17,28 @@ export function HeroSimple({ image, textWhite, textPink }) {
           className="absolute inset-x-0 bottom-0 h-1/2 bg-zinc-100"
         />
         <div className="relative bg-zinc-800 ">
-          <div className="absolute inset-0">
+          {/* Mobile devices */}
+          <div className="absolute inset-0 sm:hidden">
+            <div className="relative h-full w-full object-cover">
+              <Image
+                src={image}
+                alt="Eyebrow styling hero image"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+            <div
+              className="absolute inset-0 bg-gradient-to-b from-zinc-800"
+              aria-hidden="true"
+            />
+            <div
+              className="absolute inset-0 bg-gradient-to-t from-zinc-800/50"
+              aria-hidden="true"
+            />
+          </div>
+          {/* Large screens */}
+          <div className="absolute inset-0 hidden sm:block">
             <motion.div
               animate={{ opacity: 1 }}
               initial={{ opacity: 0 }}

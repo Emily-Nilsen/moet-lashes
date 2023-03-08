@@ -20,23 +20,12 @@ module.exports = {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     extend: {
-      animation: { 'fade-in': 'fade-in 0.5s linear forwards' },
       borderRadius: {
         '4xl': '2rem',
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         display: ['Lexend', ...defaultTheme.fontFamily.sans],
-      },
-      keyframes: {
-        'fade-in': {
-          from: {
-            opacity: 0,
-          },
-          to: {
-            opacity: 1,
-          },
-        },
       },
       maxWidth: {
         '2xl': '40rem',

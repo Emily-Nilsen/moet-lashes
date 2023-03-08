@@ -72,7 +72,15 @@ export function HeroBooking() {
           </div>
           {/* Large device */}
           <div className="absolute inset-0 hidden sm:block">
-            <div className="h-full w-full object-cover">
+            <motion.div
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                duration: 0.5,
+                type: 'fade',
+              }}
+              className="h-full w-full object-cover"
+            >
               <Image
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moet-hero_gkhyyy.webp"
                 alt="Moët Lashes"
@@ -80,7 +88,7 @@ export function HeroBooking() {
                 priority
                 className="object-cover"
               />
-            </div>
+            </motion.div>
             <div className="absolute inset-0 bg-zinc-900/20" />
             <div
               className="absolute inset-0 bg-gradient-to-b from-zinc-800"
@@ -131,7 +139,7 @@ export function HeroBooking() {
                       ease: 'easeOut',
                     }}
                     key={i}
-                    className="flex animate-fade-in flex-col rounded-2xl bg-white shadow-xl"
+                    className="animate-fade-in flex flex-col rounded-2xl bg-white shadow-xl"
                   >
                     <div className="relative flex-1 px-6 py-8 md:px-8">
                       <h3 className="text-2xl font-medium text-zinc-800">
