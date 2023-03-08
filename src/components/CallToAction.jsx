@@ -24,7 +24,7 @@ export function CallToAction({
               duration: 0.7,
               type: 'fade',
             }}
-            className="relative h-full w-full object-cover"
+            className="relative h-60 w-full object-cover sm:h-96 lg:h-full"
           >
             <Image
               src={imgUrl}
