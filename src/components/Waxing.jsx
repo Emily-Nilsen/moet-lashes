@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export function Waxing() {
   return (
-    <div className="relative bg-white py-16 sm:py-24">
+    <div className="relative bg-white pb-16 sm:py-24">
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">
           <div
@@ -61,7 +61,6 @@ export function Waxing() {
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyebrows-6_ybkep1.webp"
                 alt="The process of eyebrow waxing"
                 fill
-                // unoptimized
               />
               <div className="absolute inset-0 bg-rose-500/10 mix-blend-multiply" />
               <div className="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-20" />
@@ -71,37 +70,6 @@ export function Waxing() {
                     <p className="relative">
                       Our professional stylists will shape and enhance your
                       brows to perfection.
-                    </p>
-                  </div>
-                </blockquote>
-              </div>
-            </motion.div>
-            {/* Image 2? */}
-            <motion.div
-              whileInView={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-              transition={{
-                duration: 0.5,
-                type: 'fade',
-              }}
-              className="relative mt-6 overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl sm:mt-10"
-            >
-              <Image
-                className="absolute inset-0 h-full w-full object-cover"
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/brow_tint_oa9rpn.webp"
-                alt="The process of eyebrow tinting"
-                fill
-                // unoptimized
-              />
-              <div className="absolute inset-0 bg-rose-500/10 mix-blend-multiply" />
-              <div className="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-20" />
-              <div className="relative px-8">
-                <blockquote className="mt-8">
-                  <div className="relative text-lg font-medium text-white md:flex-grow">
-                    <p className="relative">
-                      Tinting the eyebrows results in a darker, more defined
-                      appearance, enhancing the natural shape and creating a
-                      polished look.
                     </p>
                   </div>
                 </blockquote>
@@ -147,12 +115,13 @@ export function Waxing() {
             </div>
           </div>
 
-          {/* Stats section */}
+          {/* Signature brows */}
           <div className="mt-10">
             <div className="mt-10">
               <Link href="/booking">
                 <p className="text-base font-medium text-rose-600">
-                  Book now for our signature brow treatments
+                  Book now for our <br className="sm:hidden" /> signature brow
+                  treatments
                   <span aria-hidden="true"> &rarr;</span>
                 </p>
               </Link>

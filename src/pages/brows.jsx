@@ -22,7 +22,7 @@ export default function Brows() {
 
       <main>
         <HeroSimple
-          image="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/garin-chadwick-RiZr1-ndmcY-unsplash_mhwoaj.jpg"
+          image="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/brows-hero_ytyzxf.webp"
           textWhite="Brow"
           textPink="styling"
         />
