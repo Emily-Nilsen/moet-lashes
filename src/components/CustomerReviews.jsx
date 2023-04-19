@@ -9,9 +9,9 @@ import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 26,
+  totalCount: 27,
   counts: [
-    { rating: 5, count: 26 },
+    { rating: 5, count: 27 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -19,6 +19,16 @@ const reviews = {
   ],
   featured: [
     // More reviews...
+    {
+      id: 27,
+      rating: 5,
+      content: `
+        <p>Love my lashes - very natural..and done in no time at all :)) Definitely going back again!</p>
+      `,
+      author: 'Jacqui',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_27_o0hmnh.jpg',
+    },
     {
       id: 26,
       rating: 5,
