@@ -9,9 +9,9 @@ import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 27,
+  totalCount: 29,
   counts: [
-    { rating: 5, count: 27 },
+    { rating: 5, count: 29 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -19,6 +19,26 @@ const reviews = {
   ],
   featured: [
     // More reviews...
+    {
+      id: 29,
+      rating: 5,
+      content: `
+        <p></p>
+      `,
+      author: 'Davina Rebelle',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_29_uv0b6h.webp',
+    },
+    {
+      id: 28,
+      rating: 5,
+      content: `
+        <p>I have been to many salons. This salon was very nice in customer service and treatment! I definitely want to go again!</p>
+      `,
+      author: 'seira nishi',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_28_vneuar.webp',
+    },
     {
       id: 27,
       rating: 5,
