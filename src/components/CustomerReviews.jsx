@@ -9,9 +9,9 @@ import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 29,
+  totalCount: 42,
   counts: [
-    { rating: 5, count: 29 },
+    { rating: 5, count: 42 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -19,6 +19,140 @@ const reviews = {
   ],
   featured: [
     // More reviews...
+    {
+      id: 42,
+      rating: 5,
+      content: `
+        <p>Just got my lashes done today, I came down from Melbourne for a holiday and came here and I love them sm!!!! The lady was so nice and overall great experience :) 10/10!</p>
+      `,
+      author: 'Jemma Young',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_41_ik87yc.webp',
+    },
+    {
+      id: 41,
+      rating: 5,
+      content: `
+        <p>I started using Moet Lashes when I relocated to Cairns 12 months ago and I am very happy with the services and my lashes. 🙏</p>
+      `,
+      author: 'Donna Wattenberg',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_40_b4xdxm.webp',
+    },
+    {
+      id: 40,
+      rating: 5,
+      content: `
+        <p>Super happy with Moet. I have been getting my lashes done at Moèt for a while now,  and I highly recommend her for, her quality work and fabulous personality.</p>
+      `,
+      author: 'Marg Ronan',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_42_uqpyke.webp',
+    },
+    {
+      id: 39,
+      rating: 5,
+      content: `
+        <p>Moet does a wonderful job, she is an artist.  Lovely and professional, thank you 😊.</p>
+      `,
+      author: 'Bianca Stuart',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_39_gocszj.webp',
+    },
+    {
+      id: 38,
+      rating: 5,
+      content: `
+        <p>Have been getting my lashes done at Moët Lashes for over 12 months and am always 100% happy with my eyelash extensions. Moët is highly skilled and attentive, resulting in stunningly natural-looking lashes.
+        Highly recommend for anyone seeking exceptional eyelash extensions.</p>
+      `,
+      author: 'Rachael Hughes',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_38_cn1bwe.webp',
+    },
+    {
+      id: 37,
+      rating: 5,
+      content: `
+        <p>I always get my eyelashes done with Moe&Chie, and their jobs are just perfect every time, I get so many compliments on my eyelash at everywhere!! Don't need to look for other eyelash artists in Cairns any more. Highly recommended!!</p>
+      `,
+      author: 'Ulysses AUS',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_37_sgmfxf.webp',
+    },
+    {
+      id: 36,
+      rating: 5,
+      content: `
+        <p>I have been going consistently for a few months now and the service is always amazing! Great quality lashes!</p>
+      `,
+      author: 'Shondell Esposito',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_36_jz2tih.webp',
+    },
+    {
+      id: 35,
+      rating: 5,
+      content: `
+        <p>Amazing service, I go and see Moët every month and only have great things to say xx</p>
+      `,
+      author: 'Kotocorn',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_34_dtgbjl.webp',
+    },
+    {
+      id: 34,
+      rating: 5,
+      content: `
+        <p>I’ve been coming here for a while now and Moët doesn’t disappoint would highly recommend 👍</p>
+      `,
+      author: 'Kay Xiong',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_35_hduhmm.webp',
+    },
+    {
+      id: 33,
+      rating: 5,
+      content: `
+        <p>The best and longest lashes I have got in Cairns</p>
+      `,
+      author: 'Brooke Vick',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_33_oivean.webp',
+    },
+    {
+      id: 32,
+      rating: 5,
+      content: `
+        <p>Both the ladies who have done my lashes here (Moet & Chie I think?) have done the most fantastic job and are dedicated to making sure you achieve the look you want. They will customise the length, thickness & curl of the lashes as well as the number applied to each natural lash. The results are always amazing and last me 4 weeks!</p>
+      `,
+      author: 'Ros Peric',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_32_zsyh8g.webp',
+    },
+    {
+      id: 31,
+      rating: 5,
+      content: `
+        <p>Highly recommend! I’ve done my eyelashes many times here. She is very professional and my eyelashes lasts very long.</p>
+      `,
+      author: 'Maiko',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_31_i2qblq.webp',
+    },
+    {
+      id: 30,
+      rating: 5,
+      content: `
+        <p>長期海外旅行へ行った際、日本人がやってるマツエクサロンを探していて、行ってみるとスタッフの方は可愛くて会話も楽しく、仕上がりも大満足！
+        Cityのど真ん中にあってわかりやすいし行きやすくて海外でもホント困らないなって実感！！
+        ケアンズって田舎だからそこまで求めてなかったけど、行ってホントよかった！
+        ケアンズでマツエクサロン探してる方には絶対オススメです！！！！</p>
+      `,
+      author: '中野未来',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_30_zyzrw6.webp',
+    },
     {
       id: 29,
       rating: 5,
