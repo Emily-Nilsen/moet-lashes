@@ -20,6 +20,26 @@ const reviews = {
   featured: [
     // More reviews...
     {
+      id: 44,
+      rating: 5,
+      content: `
+        <p>Absolutely lovely lady to deal with and she does an excellent job with my lashes.</p>
+      `,
+      author: 'Katie Henderson',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_44_q6zxvx.webp',
+    },
+    {
+      id: 43,
+      rating: 5,
+      content: `
+        <p>I’ve been going to Moet for ages now and I cant think of anyone who does a better job she is so gentle with your eyes and your lashes that I fall asleep every time I get them done , my lashes always last for ages and look beautiful time and time again, whatever you want she can do and she can do it quickly, I love her❤️❤️❤️</p>
+      `,
+      author: 'Georgia Heemi',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_43_cgohob.webp',
+    },
+    {
       id: 42,
       rating: 5,
       content: `
@@ -440,7 +460,7 @@ const reviews = {
       content: `
         <p>I treated my wife with a full set of volume lashes. She was pretty before, but now she's stunning. Great work!</p>
       `,
-      author: 'Bernt Nilsen',
+      author: 'Hombre',
       avatarSrc:
         'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-12_nkyabh.jpg',
     },
