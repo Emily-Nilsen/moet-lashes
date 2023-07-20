@@ -9,9 +9,9 @@ import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 42,
+  totalCount: 44,
   counts: [
-    { rating: 5, count: 42 },
+    { rating: 5, count: 44 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
