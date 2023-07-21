@@ -9,9 +9,9 @@ import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 44,
+  totalCount: 46,
   counts: [
-    { rating: 5, count: 44 },
+    { rating: 5, count: 46 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -19,6 +19,28 @@ const reviews = {
   ],
   featured: [
     // More reviews...
+    {
+      id: 46,
+      rating: 5,
+      content: `
+        <p>I have been going to Moe for years and I totally love her work, her attitude and her skills.
+        She is skilful, and tailors her treatments to best suit her customers needs.  Moe also ensures the lashes she applies are best suited to your existing lashes as well as your lifestyle.
+        I could not recommend Moe’s services more highly. I have passed her details onto so many of my friends, as I believe she is the best in Cairns.</p>
+      `,
+      author: 'Cathy McCullagh',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_46_blypav.webp',
+    },
+    {
+      id: 45,
+      rating: 5,
+      content: `
+        <p>The service is really good, moet was super nice and polite and her lashes always last long and looks good. Would definitely recommend</p>
+      `,
+      author: 'Yvonne Lee',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_45_o9cahu.webp',
+    },
     {
       id: 44,
       rating: 5,
