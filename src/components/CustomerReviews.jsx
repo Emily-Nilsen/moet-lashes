@@ -9,9 +9,9 @@ import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 46,
+  totalCount: 48,
   counts: [
-    { rating: 5, count: 46 },
+    { rating: 5, count: 48 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -19,6 +19,26 @@ const reviews = {
   ],
   featured: [
     // More reviews...
+    {
+      id: 48,
+      rating: 5,
+      content: `
+        <p>Moe have been my go to eyelash girl for the last 2 years. The location is nice, I know my eyelashes are always on point. Good value for money🙂🙂🙂.</p>
+      `,
+      author: 'Wendy Robinson',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_48_grw8xj.webp',
+    },
+    {
+      id: 47,
+      rating: 5,
+      content: `
+        <p>My lashes are absolutely gorgeous all day everyday and all thanks to Moet @Moet Lashes. Booking is stress free, relaxing environment, hygienic processes and to top it off you walk out so relaxed with the most beautiful lashes ever. I can’t thank you enough. Every appointment is always so much fun.</p>
+      `,
+      author: 'Lisa Aitken',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_47_znvzyx.webp',
+    },
     {
       id: 46,
       rating: 5,
