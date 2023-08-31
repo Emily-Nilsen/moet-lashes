@@ -9,9 +9,9 @@ import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 51,
+  totalCount: 53,
   counts: [
-    { rating: 5, count: 51 },
+    { rating: 5, count: 53 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -19,6 +19,26 @@ const reviews = {
   ],
   featured: [
     // More reviews...
+    {
+      id: 53,
+      rating: 5,
+      content: `
+        <p>Always perfect lashes 😍💟</p>
+      `,
+      author: 'maria grimaldi',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_53_bbwgvv.webp',
+    },
+    {
+      id: 52,
+      rating: 5,
+      content: `
+        <p>I love Moët. Amazing quality lashes exactly what I had asked for! Thank you!</p>
+      `,
+      author: 'Chloe Kent',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_52_r46cgv.webp',
+    },
     {
       id: 51,
       rating: 5,
