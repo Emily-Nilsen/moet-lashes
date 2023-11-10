@@ -9,9 +9,9 @@ import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 54,
+  totalCount: 55,
   counts: [
-    { rating: 5, count: 54 },
+    { rating: 5, count: 55 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -19,6 +19,16 @@ const reviews = {
   ],
   featured: [
     // More reviews...
+    {
+      id: 55,
+      rating: 5,
+      content: `
+        <p>These were my first ever eyelash extensions and I couldn't have asked for any better! The price was great and she did a lovely job and I absolutely adore my lashes! She was very gentle and super polite and I enjoyed conversing with her, I could tell she was very professional at her job, I will definitely be coming back!</p>
+      `,
+      author: 'Sarah Newton',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_55_dm1xe7.webp',
+    },
     {
       id: 54,
       rating: 5,
@@ -601,7 +611,7 @@ export function CustomerReviews() {
 
   return (
     <div className="bg-rose-50">
-      <div className="mx-auto max-w-2xl px-4 pt-16 pb-6 sm:px-6 sm:pt-24 sm:pb-10 lg:grid lg:max-w-7xl lg:grid-cols-12 lg:gap-x-8 lg:px-8 lg:pt-32">
+      <div className="mx-auto max-w-2xl px-4 pb-6 pt-16 sm:px-6 sm:pb-10 sm:pt-24 lg:grid lg:max-w-7xl lg:grid-cols-12 lg:gap-x-8 lg:px-8 lg:pt-32">
         <div className="lg:col-span-4">
           <h3 className="text-2xl font-extrabold tracking-tight text-zinc-900 sm:text-3xl">
             Customer Reviews
@@ -759,7 +769,7 @@ export function CustomerReviews() {
             <Menu.Button className="bg-t left-0 flex w-screen justify-end rounded-full px-4 py-2 text-sm font-semibold text-zinc-700 shadow-none transition duration-300 ease-in-out hover:text-rose-500 focus:outline-none focus:ring-0 sm:pr-6 lg:pr-8">
               Read more reviews
               <ChevronDownIcon
-                className="ml-2 -mr-1 h-5 w-5"
+                className="-mr-1 ml-2 h-5 w-5"
                 aria-hidden="true"
               />
             </Menu.Button>
