@@ -9,9 +9,9 @@ import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 55,
+  totalCount: 56,
   counts: [
-    { rating: 5, count: 55 },
+    { rating: 5, count: 56 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -19,6 +19,16 @@ const reviews = {
   ],
   featured: [
     // More reviews...
+    {
+      id: 56,
+      rating: 5,
+      content: `
+        <p></p>
+      `,
+      author: 'Tamza Ramza',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_56_nywno3.webp',
+    },
     {
       id: 55,
       rating: 5,
