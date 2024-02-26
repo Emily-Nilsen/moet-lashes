@@ -12,7 +12,7 @@ const tiers = [
     name: 'Classic Lashes',
     id: 'tier-classic',
     href: 'tel:61466609975',
-    price: { fullset: '$75', megaset: '$100' },
+    price: { fullset: '$75', megaset: '$105' },
     time: { fullset: '60 min', megaset: '90 min' },
     description:
       'Individual eyelash extensions are attached one by one to each natural lash.',
@@ -28,7 +28,7 @@ const tiers = [
     name: 'Double Lashes',
     id: 'tier-double',
     href: 'tel:61466609975',
-    price: { fullset: '$85', megaset: '$110' },
+    price: { fullset: '$85', megaset: '$115' },
     time: { fullset: '60 min', megaset: '105 min' },
     description:
       'The double method attaches two single eyelash extensions to each natural lash.',
@@ -44,7 +44,7 @@ const tiers = [
     name: 'Hybrid Lashes',
     id: 'tier-hybrid',
     href: 'tel:61466609975',
-    price: { fullset: '$95', megaset: '$120' },
+    price: { fullset: '$95', megaset: '$125' },
     time: { fullset: '75 min', megaset: '105 min' },
     description:
       'A hybrid lash combines a flat lash with a 3D and 4D volume lash.',
@@ -60,7 +60,7 @@ const tiers = [
     name: 'Volume Lashes',
     id: 'tier-volume',
     href: 'tel:61466609975',
-    price: { fullset: '$105', megaset: '$130' },
+    price: { fullset: '$105', megaset: '$135' },
     time: { fullset: '90 min', megaset: '120 min' },
     description:
       'The volume method attaches three extra fine lashes to each natural lash.',
@@ -76,7 +76,7 @@ const tiers = [
     name: 'Wispy Lashes',
     id: 'tier-wispy',
     href: 'tel:61466609975',
-    price: { fullset: '$115', megaset: '$140' },
+    price: { fullset: '$115', megaset: '$145' },
     time: { fullset: '90 min', megaset: '120 min' },
     description:
       'The wispy eyelash extension is a new style of lash extension with noticeable spikes and a lush appearance.',
