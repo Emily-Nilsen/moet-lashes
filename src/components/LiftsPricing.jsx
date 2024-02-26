@@ -7,7 +7,7 @@ const tiers = [
     name: 'Tint',
     id: 'tier-tint',
     href: 'tel:61466609975',
-    price: '$30',
+    price: '$35',
     time: '30 min',
     description: 'Black vegetable dye adds depth without extensions.',
     features: [
@@ -21,7 +21,7 @@ const tiers = [
     name: 'Lift & Tint',
     id: 'tier-lift-and-tint',
     href: 'tel:61466609975',
-    price: '$80',
+    price: '$85',
     time: '90 min',
     description:
       'Curl, define and darken lashes without extensions using a safe vegetable dye.',
@@ -38,7 +38,7 @@ const tiers = [
     name: 'Lift',
     id: 'tier-lift',
     href: 'tel:61466609975',
-    price: '$60',
+    price: '$65',
     time: '60 min',
     description: 'Define your natural lash line with a lift.',
     features: [
@@ -95,7 +95,7 @@ export function LiftsPricing() {
                   {tier.name}
                 </h3>
                 {tier.mostPopular ? (
-                  <p className="rounded-full bg-rose-500/10 py-1 px-2.5 text-xs font-semibold leading-5 text-rose-500">
+                  <p className="rounded-full bg-rose-500/10 px-2.5 py-1 text-xs font-semibold leading-5 text-rose-500">
                     Most popular
                   </p>
                 ) : null}
@@ -103,7 +103,7 @@ export function LiftsPricing() {
               <p className="mt-4 text-sm leading-6 text-zinc-600">
                 {tier.description}
               </p>
-              <h2 className="align-center flex pt-6 pb-3 text-xs font-bold tracking-wide text-rose-400">
+              <h2 className="align-center flex pb-3 pt-6 text-xs font-bold tracking-wide text-rose-400">
                 <span>
                   <ClockIcon
                     className="mr-1 h-4 w-4 text-rose-300"
@@ -124,7 +124,7 @@ export function LiftsPricing() {
                   tier.mostPopular
                     ? 'bg-rose-500 text-white shadow-sm hover:bg-rose-600'
                     : 'text-rose-500 ring-1 ring-inset ring-rose-200 hover:ring-rose-300',
-                  'mt-6 flex items-center justify-center rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 transition duration-300 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500'
+                  'mt-6 flex items-center justify-center rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 transition duration-300 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500'
                 )}
               >
                 <span>

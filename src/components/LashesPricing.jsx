@@ -12,7 +12,7 @@ const tiers = [
     name: 'Classic Lashes',
     id: 'tier-classic',
     href: 'tel:61466609975',
-    price: { fullset: '$70', megaset: '$100' },
+    price: { fullset: '$75', megaset: '$100' },
     time: { fullset: '60 min', megaset: '90 min' },
     description:
       'Individual eyelash extensions are attached one by one to each natural lash.',
@@ -28,8 +28,8 @@ const tiers = [
     name: 'Double Lashes',
     id: 'tier-double',
     href: 'tel:61466609975',
-    price: { fullset: '$80', megaset: '$110' },
-    time: { fullset: '75 min', megaset: '105 min' },
+    price: { fullset: '$85', megaset: '$110' },
+    time: { fullset: '60 min', megaset: '105 min' },
     description:
       'The double method attaches two single eyelash extensions to each natural lash.',
     features: [
@@ -44,7 +44,7 @@ const tiers = [
     name: 'Hybrid Lashes',
     id: 'tier-hybrid',
     href: 'tel:61466609975',
-    price: { fullset: '$90', megaset: '$120' },
+    price: { fullset: '$95', megaset: '$120' },
     time: { fullset: '75 min', megaset: '105 min' },
     description:
       'A hybrid lash combines a flat lash with a 3D and 4D volume lash.',
@@ -60,7 +60,7 @@ const tiers = [
     name: 'Volume Lashes',
     id: 'tier-volume',
     href: 'tel:61466609975',
-    price: { fullset: '$100', megaset: '$130' },
+    price: { fullset: '$105', megaset: '$130' },
     time: { fullset: '90 min', megaset: '120 min' },
     description:
       'The volume method attaches three extra fine lashes to each natural lash.',
@@ -76,7 +76,7 @@ const tiers = [
     name: 'Wispy Lashes',
     id: 'tier-wispy',
     href: 'tel:61466609975',
-    price: { fullset: '$110', megaset: '$140' },
+    price: { fullset: '$115', megaset: '$140' },
     time: { fullset: '90 min', megaset: '120 min' },
     description:
       'The wispy eyelash extension is a new style of lash extension with noticeable spikes and a lush appearance.',
@@ -105,7 +105,7 @@ function EyelashRemoval() {
             </h3>
             <div className="mt-2 text-base leading-7 text-zinc-600">
               At Moët Lashes, we offer safe and gentle eyelash extension removal
-              for $30. Get your lashes removed for{' '}
+              for $35. Get your lashes removed for{' '}
               <span className="font-semibold text-zinc-900">only $10</span> if
               you book any of our eyelash treatments.
             </div>
@@ -163,7 +163,7 @@ export function LashesPricing() {
                 className={({ checked }) =>
                   classNames(
                     checked ? 'bg-rose-500 text-white' : 'text-zinc-500',
-                    'cursor-pointer rounded-full py-1 px-2.5'
+                    'cursor-pointer rounded-full px-2.5 py-1'
                   )
                 }
               >
@@ -196,7 +196,7 @@ export function LashesPricing() {
                 {tier.description}
               </p>
 
-              <h2 className="align-center flex pt-6 pb-3 text-xs font-bold tracking-wide text-rose-400">
+              <h2 className="align-center flex pb-3 pt-6 text-xs font-bold tracking-wide text-rose-400">
                 <span>
                   <ClockIcon
                     className="mr-1 h-4 w-4 text-rose-300"
@@ -221,7 +221,7 @@ export function LashesPricing() {
                   tier.mostPopular
                     ? 'bg-rose-500 text-white shadow-sm hover:bg-rose-600'
                     : 'text-rose-500 ring-1 ring-inset ring-rose-200 hover:ring-rose-300',
-                  'mt-6 flex items-center justify-center rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 transition duration-300 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500'
+                  'mt-6 flex items-center justify-center rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 transition duration-300 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500'
                 )}
               >
                 <span>

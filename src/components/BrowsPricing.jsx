@@ -6,7 +6,7 @@ const tiers = [
     name: 'Brow Lamination',
     id: 'tier-lamination',
     href: 'tel:61466609975',
-    price: '$60',
+    price: '$65',
     time: '45 min',
     description: 'Brow lamination safely defines and lifts for up to 8 weeks.',
     features: [
@@ -20,7 +20,7 @@ const tiers = [
     name: 'Brow Wax',
     id: 'tier-wax',
     href: 'tel:61466609975',
-    price: '$60',
+    price: '$65',
     time: '45 min',
     description:
       'Efficient eyebrow shaping with high-quality wax. Lasts up to 4 weeks.',
@@ -35,7 +35,7 @@ const tiers = [
     name: 'Brow Lamination & Wax',
     id: 'tier-lamination-wax',
     href: 'tel:61466609975',
-    price: '$90',
+    price: '$95',
     time: '75 min',
     description: 'Get styled and defined brows with a bundled brow set.',
     features: [
@@ -49,7 +49,7 @@ const tiers = [
 export function BrowsPricing() {
   return (
     <div className="isolate overflow-hidden bg-zinc-900">
-      <div className="mx-auto max-w-7xl px-6 pt-24 pb-96 text-center sm:pt-32 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-base font-semibold leading-7 text-rose-400">
             Get the Perfect Arch
@@ -104,7 +104,7 @@ export function BrowsPricing() {
                         {tier.price}
                       </span>
                     </div>
-                    <h2 className="align-center flex pt-6 pb-3 text-xs font-bold tracking-wide text-rose-400">
+                    <h2 className="align-center flex pb-3 pt-6 text-xs font-bold tracking-wide text-rose-400">
                       <span>
                         <ClockIcon
                           className="mr-1 h-4 w-4 text-rose-300"
@@ -146,7 +146,7 @@ export function BrowsPricing() {
                   </a>
                 </div>
               ))}
-              <div className="flex flex-col items-start gap-y-6 gap-x-8 rounded-3xl p-8 ring-1 ring-zinc-900/10 sm:gap-y-10 sm:p-10 lg:col-span-3 lg:flex-row lg:items-center">
+              <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-zinc-900/10 sm:gap-y-10 sm:p-10 lg:col-span-3 lg:flex-row lg:items-center">
                 <div className="lg:min-w-0 lg:flex-1">
                   <h3 className="text-lg font-semibold leading-8 tracking-tight text-rose-500">
                     Lash Wash
