@@ -9,9 +9,9 @@ import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 56,
+  totalCount: 58,
   counts: [
-    { rating: 5, count: 56 },
+    { rating: 5, count: 58 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -19,6 +19,26 @@ const reviews = {
   ],
   featured: [
     // More reviews...
+    {
+      id: 58,
+      rating: 5,
+      content: `
+        <p>went here for my first sets of lashes ever, couldnt ask for any better, they are so natural and i got SO many compliments on them. so satisfied, never going anywhere else</p>
+      `,
+      author: 'catherine',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_58_wm9egq.webp',
+    },
+    {
+      id: 57,
+      rating: 5,
+      content: `
+        <p>So happy with my eyelash extensions. Very friendly, professional service and they took the time to find out the exact look I was wanting. Very happy with the results and very fairly priced.</p>
+      `,
+      author: 'Kylie Achurch',
+      avatarSrc:
+        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_57_cz4rrw.webp',
+    },
     {
       id: 56,
       rating: 5,
@@ -621,13 +641,13 @@ export function CustomerReviews() {
 
   return (
     <div className="bg-rose-50">
-      <div className="mx-auto max-w-2xl px-4 pb-6 pt-16 sm:px-6 sm:pb-10 sm:pt-24 lg:grid lg:max-w-7xl lg:grid-cols-12 lg:gap-x-8 lg:px-8 lg:pt-32">
+      <div className="max-w-2xl px-4 pt-16 pb-6 mx-auto sm:px-6 sm:pb-10 sm:pt-24 lg:grid lg:max-w-7xl lg:grid-cols-12 lg:gap-x-8 lg:px-8 lg:pt-32">
         <div className="lg:col-span-4">
           <h3 className="text-2xl font-extrabold tracking-tight text-zinc-900 sm:text-3xl">
             Customer Reviews
           </h3>
 
-          <div className="mt-3 flex items-center">
+          <div className="flex items-center mt-3">
             <div>
               <div className="flex items-center">
                 {[0, 1, 2, 3, 4].map((rating) => (
@@ -656,14 +676,14 @@ export function CustomerReviews() {
             <dl className="space-y-3">
               {reviews.counts.map((count) => (
                 <div key={count.rating} className="flex items-center text-sm">
-                  <dt className="flex flex-1 items-center">
+                  <dt className="flex items-center flex-1">
                     <p className="w-3 font-medium text-zinc-900">
                       {count.rating}
                       <span className="sr-only"> star reviews</span>
                     </p>
                     <div
                       aria-hidden="true"
-                      className="ml-1 flex flex-1 items-center"
+                      className="flex items-center flex-1 ml-1"
                     >
                       <StarIcon
                         className={classNames(
@@ -673,11 +693,11 @@ export function CustomerReviews() {
                         aria-hidden="true"
                       />
 
-                      <div className="relative ml-3 flex-1">
-                        <div className="h-3 rounded-full border border-zinc-200 bg-zinc-50" />
+                      <div className="relative flex-1 ml-3">
+                        <div className="h-3 border rounded-full border-zinc-200 bg-zinc-50" />
                         {count.count > 0 ? (
                           <div
-                            className="absolute inset-y-0 rounded-full border border-rose-400 bg-rose-400"
+                            className="absolute inset-y-0 border rounded-full border-rose-400 bg-rose-400"
                             style={{
                               width: `calc(${count.count} / ${reviews.totalCount} * 100%)`,
                             }}
@@ -686,7 +706,7 @@ export function CustomerReviews() {
                       </div>
                     </div>
                   </dt>
-                  <dd className="ml-3 w-10 text-right text-sm tabular-nums text-zinc-900">
+                  <dd className="w-10 ml-3 text-sm text-right tabular-nums text-zinc-900">
                     {Math.round((count.count / reviews.totalCount) * 100)}%
                   </dd>
                 </div>
@@ -706,7 +726,7 @@ export function CustomerReviews() {
               href="https://www.google.com/search?q=moet+lashes+cairns&sxsrf=ALiCzsbHz1T1TU9NE5phVzZgocO6-tS8vg%3A1653657673106&source=hp&ei=SNCQYqCwOrqRxc8Pye2b2Ak&iflsig=AJiK0e8AAAAAYpDeWbYSzNNWZTtLSBEl7vu2H1U9uIqJ&oq=moe&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCMQJzIECAAQQzIKCC4QxwEQ0QMQQzIOCC4QgAQQxwEQ0QMQ1AIyCwguEIAEEMcBENEDMgUILhCABDIICC4QgAQQ1AIyCwguEIAEEMcBEK8BMgsILhCABBDHARCvATIFCAAQgAQ6BAguECc6CwguEIAEEMcBEKMCUABY2ANgxSFoAHAAeACAAW2IAasCkgEDMS4ymAEAoAEB&sclient=gws-wiz#lrd=0x697867d234fcefb7:0x6a54fdadd7fc308d,1,,,"
               target="_blank"
               rel="noreferrer"
-              className="mt-6 inline-flex w-full items-center justify-center rounded-full border border-zinc-300 bg-white px-8 py-2 text-sm font-medium text-zinc-900 transition duration-300 ease-in-out hover:bg-rose-400 hover:text-white sm:w-auto lg:w-full"
+              className="inline-flex items-center justify-center w-full px-8 py-2 mt-6 text-sm font-medium transition duration-300 ease-in-out bg-white border rounded-full border-zinc-300 text-zinc-900 hover:bg-rose-400 hover:text-white sm:w-auto lg:w-full"
             >
               Write a review
             </a>
@@ -721,19 +741,19 @@ export function CustomerReviews() {
               {reviewPreviews.map((review) => (
                 <div key={review.id} className="py-12">
                   <div className="flex items-center">
-                    <div className="relative h-12 w-12 rounded-full">
+                    <div className="relative w-12 h-12 rounded-full">
                       <Image
                         src={review.avatarSrc}
                         alt={`${review.author}.`}
                         fill
-                        className="rounded-full object-cover"
+                        className="object-cover rounded-full"
                       />
                     </div>
                     <div className="ml-4">
                       <h2 className="text-sm font-bold text-zinc-900">
                         {review.author}
                       </h2>
-                      <div className="mt-1 flex items-center">
+                      <div className="flex items-center mt-1">
                         {[0, 1, 2, 3, 4].map((rating) => (
                           <StarIcon
                             key={rating}
@@ -774,12 +794,12 @@ export function CustomerReviews() {
       </div>
       {/* Read more functionality */}
       <div className="flex lg:mt-0">
-        <Menu as="div" className="relative mt-4 flex justify-end">
+        <Menu as="div" className="relative flex justify-end mt-4">
           <div>
-            <Menu.Button className="bg-t left-0 flex w-screen justify-end rounded-full px-4 py-2 text-sm font-semibold text-zinc-700 shadow-none transition duration-300 ease-in-out hover:text-rose-500 focus:outline-none focus:ring-0 sm:pr-6 lg:pr-8">
+            <Menu.Button className="left-0 flex justify-end w-screen px-4 py-2 text-sm font-semibold transition duration-300 ease-in-out rounded-full shadow-none bg-t text-zinc-700 hover:text-rose-500 focus:outline-none focus:ring-0 sm:pr-6 lg:pr-8">
               Read more reviews
               <ChevronDownIcon
-                className="-mr-1 ml-2 h-5 w-5"
+                className="w-5 h-5 ml-2 -mr-1"
                 aria-hidden="true"
               />
             </Menu.Button>
@@ -794,14 +814,14 @@ export function CustomerReviews() {
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-            <Menu.Items className="absolute inset-x-0 left-0 z-10 mt-12 w-screen origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+            <Menu.Items className="absolute inset-x-0 left-0 z-10 w-screen mt-12 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
               <div className="py-10">
-                <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="container px-4 mx-auto sm:px-6 lg:px-8">
                   <div className="-my-12 divide-y divide-zinc-200">
                     {reviewRemaining.map((review) => (
                       <div key={review.id} className="py-12">
                         <div className="flex items-center">
-                          <div className="relative h-12 w-12 rounded-full">
+                          <div className="relative w-12 h-12 rounded-full">
                             <Image
                               src={review.avatarSrc}
                               alt={`${review.author}.`}
@@ -816,7 +836,7 @@ export function CustomerReviews() {
                             <h2 className="text-sm font-bold text-zinc-900">
                               {review.author}
                             </h2>
-                            <div className="mt-1 flex items-center">
+                            <div className="flex items-center mt-1">
                               {[0, 1, 2, 3, 4].map((rating) => (
                                 <StarIcon
                                   key={rating}
