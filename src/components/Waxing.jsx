@@ -5,7 +5,7 @@ import { BookBrowsToday } from './BookBrowsToday'
 
 export function Waxing() {
   return (
-    <div className="relative bg-white pb-0 sm:py-24">
+    <div className="relative bg-white pb-0 sm:pt-24">
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">
           <div

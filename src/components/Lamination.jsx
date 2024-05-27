@@ -108,7 +108,7 @@ export function Lamination() {
               <p>
                 Eyebrow lamination is a semi-permanent treatment that uses a
                 unique solution to reshape and set the eyebrows in place for up
-                to 6-8 weeks. The solution works by "laminating" the brow hairs
+                to 6-8 weeks. The solution works by ‘laminating’ the brow hairs
                 and keeping them in place, giving the appearance of fuller and
                 fluffier brows.
               </p>
