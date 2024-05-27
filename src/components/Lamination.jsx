@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { LaminationSafety } from './LaminationSafety'
 
 export function Lamination() {
   return (
@@ -8,17 +9,17 @@ export function Lamination() {
         <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
             <h2 className="text-lg font-semibold text-rose-600">
-              Our ultimate guide to
+              Our Ultimate Guide to
             </h2>
             <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-zinc-900 sm:text-4xl">
-              Eyebrow lamination & waxing
+              Eyebrow Lamination & Waxing
             </h3>
           </div>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
           <div className="relative lg:col-start-2 lg:row-start-1">
             <svg
-              className="absolute top-0 right-0 -mt-20 -mr-20 hidden lg:block"
+              className="absolute right-0 top-0 -mr-20 -mt-20 hidden lg:block"
               width={404}
               height={384}
               fill="none"
@@ -53,7 +54,7 @@ export function Lamination() {
             <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
                 {/* Mobile */}
-                <div className="aspect-w-12 aspect-h-7 sm:hidden lg:aspect-none">
+                <div className="aspect-h-7 aspect-w-12 lg:aspect-none sm:hidden">
                   <Image
                     className="rounded-lg object-cover object-center shadow-lg"
                     src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyebrows-5_mqothu.webp"
@@ -70,7 +71,7 @@ export function Lamination() {
                     duration: 0.5,
                     type: 'fade',
                   }}
-                  className="aspect-w-12 aspect-h-7 hidden sm:block lg:aspect-none"
+                  className="aspect-h-7 aspect-w-12 hidden lg:aspect-none sm:block"
                 >
                   <Image
                     className="rounded-lg object-cover object-center shadow-lg"
@@ -103,18 +104,52 @@ export function Lamination() {
                 about eyebrow lamination and waxing, including the benefits,
                 procedure, and tips for perfect brows.
               </p>
-              <h3>What is eyebrow lamination?</h3>
+              <h3>What is Eyebrow Lamination?</h3>
               <p>
                 Eyebrow lamination is a semi-permanent treatment that uses a
                 unique solution to reshape and set the eyebrows in place for up
-                to 6-8 weeks. The solution works by “laminating” the brow hairs
+                to 6-8 weeks. The solution works by "laminating" the brow hairs
                 and keeping them in place, giving the appearance of fuller and
                 fluffier brows.
               </p>
+
+              <h3>Benefits of Eyebrow Lamination</h3>
+              <ul role="list">
+                <li>
+                  <span className="font-bold text-zinc-700">
+                    Perfect Shape for Every Brow:
+                  </span>{' '}
+                  Ideal for those with thin or unruly brows and individuals
+                  desiring a fuller look.
+                </li>
+                <li>
+                  <span className="font-bold text-zinc-700">
+                    Effortless Elegance for Weeks:
+                  </span>{' '}
+                  Treatments last 6-8 weeks and cater to those with medium to
+                  full-thickness eyebrows, enhancing natural beauty with minimal
+                  maintenance.
+                </li>
+                <li>
+                  <span className="font-bold text-zinc-700">
+                    Easy to Maintain:
+                  </span>{' '}
+                  After undergoing eyebrow lamination, you can comb your brows
+                  in the desired shape, and they’ll stay that way for the
+                  duration of the treatment.
+                </li>
+                <li>
+                  <span className="font-bold text-zinc-700">Pain-Free:</span>{' '}
+                  Both eyebrow lamination and waxing are relatively pain-free,
+                  with the occasional twinge or discomfort being the only side
+                  effect.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
+      <LaminationSafety />
     </div>
   )
 }

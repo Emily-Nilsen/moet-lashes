@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import { BookBrowsToday } from './BookBrowsToday'
 
 export function Waxing() {
   return (
-    <div className="relative bg-white pb-16 sm:py-24">
+    <div className="relative bg-white pb-0 sm:py-24">
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">
           <div
@@ -13,7 +14,7 @@ export function Waxing() {
           >
             <div className="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-rose-50 lg:right-72" />
             <svg
-              className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
+              className="absolute left-1/2 top-8 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
               width={404}
               height={392}
               fill="none"
@@ -47,7 +48,7 @@ export function Waxing() {
           </div>
           <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:max-w-none lg:px-0 lg:py-20">
             {/* Mobile */}
-            <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl sm:hidden">
+            <div className="relative overflow-hidden rounded-2xl pb-10 pt-64 shadow-xl sm:hidden">
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyebrows-6_ybkep1.webp"
@@ -75,7 +76,7 @@ export function Waxing() {
                 duration: 0.5,
                 type: 'fade',
               }}
-              className="relative hidden overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl sm:block"
+              className="relative hidden overflow-hidden rounded-2xl pb-10 pt-64 shadow-xl sm:block"
             >
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
@@ -102,7 +103,7 @@ export function Waxing() {
         <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:px-0">
           {/* Content area */}
           <div className="prose prose-rose pt-12 text-zinc-500 sm:pt-16 lg:pt-20">
-            <h3 className="">What is eyebrow waxing?</h3>
+            <h3 className="">What is Eyebrow Waxing?</h3>
             <div className="mt-6 space-y-6 text-zinc-500">
               <p className="text-base">
                 Eyebrow waxing is a hair removal method that involves using hot
@@ -110,46 +111,64 @@ export function Waxing() {
                 quick and effective way to shape and define brows, leaving them
                 neat and tidy.
               </p>
-              <h3>The benefits of eyebrow lamination and waxing</h3>
+              <h3>Benefits of Eyebrow Waxing</h3>
               <ul role="list">
                 <li>
-                  Adds volume and shape to the brows: Eyebrow lamination and
-                  waxing are great for adding volume and shape to the brows,
-                  giving you the appearance of fuller and more defined brows.
+                  <span className="font-bold text-zinc-700">
+                    Defines Shape:
+                  </span>{' '}
+                  Waxing precisely removes unwanted hair, creating a clean and
+                  defined brow shape.
                 </li>
                 <li>
-                  Lasts for up to 8 weeks: Eyebrow lamination lasts up to 8
-                  weeks, so you won’t have to worry about maintaining your brows
-                  as often.
+                  <span className="font-bold text-zinc-700">
+                    Long-Lasting Results:
+                  </span>{' '}
+                  The results last up to 8 weeks, so you won’t have to worry
+                  about maintaining your brows as often.
                 </li>
                 <li>
-                  Easy to maintain: After undergoing eyebrow lamination, you can
-                  comb your brows in the desired shape, and they’ll stay that
-                  way for the duration of the treatment.
+                  <span className="font-bold text-zinc-700">Pain-Free:</span>{' '}
+                  The procedure is relatively pain-free, with minimal
+                  discomfort.
+                </li>
+              </ul>
+              <h3>After Care: Maintaining Your Perfect Brows</h3>
+              <p className="mt-6 space-y-6 text-base text-zinc-500">
+                To maintain the beauty and health of your brows post-treatment,
+                we recommend:
+              </p>
+              <ul role="list">
+                <li>
+                  <span className="font-bold text-zinc-700">Moisturise:</span>{' '}
+                  Hydrate your brows regularly with a brow conditioner while
+                  avoiding excessive oils.
                 </li>
                 <li>
-                  Pain-free: Both eyebrow lamination and waxing are relatively
-                  pain-free, with the occasional twinge or discomfort being the
-                  only side effect.
+                  <span className="font-bold text-zinc-700">
+                    Water & Makeup:
+                  </span>{' '}
+                  Wait 24 hours before applying makeup, and avoid water and
+                  steam for 24 hours.
+                </li>
+                <li>
+                  <span className="font-bold text-zinc-700">UV Exposure:</span>{' '}
+                  Minimise UV exposure and chlorine contact to prolong the
+                  eyebrow lamination result.
+                </li>
+                <li>
+                  <span className="font-bold text-zinc-700">
+                    Tanning/Exfoliating Products:
+                  </span>{' '}
+                  Avoid tanning products and wait 3 days before using
+                  exfoliating products or retinoids around your brows.
                 </li>
               </ul>
             </div>
           </div>
-
-          {/* Signature brows */}
-          <div className="mt-10">
-            <div className="mt-10">
-              <Link href="/booking">
-                <p className="text-base font-medium text-rose-600">
-                  Book now for our <br className="sm:hidden" /> signature brow
-                  treatments
-                  <span aria-hidden="true"> &rarr;</span>
-                </p>
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
+      <BookBrowsToday />
     </div>
   )
 }
