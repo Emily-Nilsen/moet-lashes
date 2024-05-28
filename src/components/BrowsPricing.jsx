@@ -1,14 +1,17 @@
 import Link from 'next/link'
 import { CheckIcon, PhoneIcon, ClockIcon } from '@heroicons/react/20/solid'
+import { DeluxeBrowPackages } from './DeluxeBrowPackages'
 
 const tiers = [
   {
-    name: 'Brow Lamination',
-    id: 'tier-lamination',
+    name: 'First Time Visit - Brow Lamination',
+    book: 'First Time Visit',
+    id: 'first-time-visit',
     href: 'tel:61466609975',
     price: '$65',
     time: '45 min',
-    description: 'Brow lamination safely defines and lifts for up to 8 weeks.',
+    description:
+      'Experience the benefits of our brow lamination service, which safely defines and lifts your brows for up to 8 weeks. The first visit includes an initial consultation.',
     features: [
       'Lifts, sets and styles brow hairs',
       'Results last up to 8 weeks',
@@ -17,33 +20,34 @@ const tiers = [
     ],
   },
   {
-    name: 'Brow Wax',
-    id: 'tier-wax',
+    name: 'Returning Visit - Brow Lamination',
+    book: 'Returning Visit',
+    id: 'returning-visit',
     href: 'tel:61466609975',
-    price: '$65',
-    time: '45 min',
+    price: '$55',
+    time: '30 min',
     description:
-      'Efficient eyebrow shaping with high-quality wax. Lasts up to 4 weeks.',
+      'Maintain your perfectly styled brows with our lamination service for returning clients, ensuring lasting definition and lift for up to 8 weeks.',
     features: [
-      'Shapes and defines eyebrows',
-      'Quick and efficient procedure',
-      'Uses high-quality wax for minimal pain',
-      'Results last up to 4 weeks',
+      'Lifts, sets and styles brow hairs',
+      'Results last up to 8 weeks',
+      'Adds volume and definition to brows',
+      'Keeps your brows looking fresh',
     ],
   },
-  {
-    name: 'Brow Lamination & Wax',
-    id: 'tier-lamination-wax',
-    href: 'tel:61466609975',
-    price: '$95',
-    time: '75 min',
-    description: 'Get styled and defined brows with a bundled brow set.',
-    features: [
-      'Combination of brow lamination and wax services',
-      'Achieve perfectly styled and defined brows',
-      'Save money by bundling services',
-    ],
-  },
+  // {
+  //   name: 'Brow Lamination & Wax',
+  //   id: 'tier-lamination-wax',
+  //   href: 'tel:61466609975',
+  //   price: '$95',
+  //   time: '75 min',
+  //   description: 'Get styled and defined brows with a bundled brow set.',
+  //   features: [
+  //     'Combination of brow lamination and wax services',
+  //     'Achieve perfectly styled and defined brows',
+  //     'Save money by bundling services',
+  //   ],
+  // },
 ]
 
 export function BrowsPricing() {
@@ -52,16 +56,16 @@ export function BrowsPricing() {
       <div className="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className="text-base font-semibold leading-7 text-rose-400">
-            Get the Perfect Arch
+            Add Volume and Definition with Our
           </h2>
           <h1 className="pb-2 text-4xl font-extrabold leading-tight text-white sm:text-center sm:text-5xl">
-            Brow services and pricing
+            Brow Lamination Treatment
           </h1>
         </div>
         <div className="relative mt-6">
           <p className="mx-auto max-w-2xl text-lg leading-8 text-white/60">
-            Affordable brow lamination and wax services to enhance your natural
-            beauty.
+            Affordable brow lamination services to lift, set, and style your
+            eyebrows, enhancing your natural beauty.
           </p>
           <svg
             viewBox="0 0 1208 1024"
@@ -86,7 +90,7 @@ export function BrowsPricing() {
       <div className="flow-root bg-white pb-24 sm:pb-32">
         <div className="-mt-80">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-3">
+            <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
               {tiers.map((tier) => (
                 <div
                   key={tier.id}
@@ -131,42 +135,25 @@ export function BrowsPricing() {
                       ))}
                     </ul>
                   </div>
-                  <a
+                  <Link
                     href={tier.href}
                     aria-describedby={tier.id}
                     className="mt-8 flex items-center justify-center rounded-md bg-rose-500 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm transition duration-300 ease-in-out hover:bg-rose-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500"
                   >
-                    <span>
+                    <span className="inline">
                       <PhoneIcon
                         className="mr-2 h-4 w-5 text-rose-200 group-hover:text-rose-50"
                         aria-hidden="true"
                       />
                     </span>{' '}
-                    Book brows
-                  </a>
+                    Book {tier.book}{' '}
+                  </Link>
                 </div>
               ))}
-              <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-zinc-900/10 sm:gap-y-10 sm:p-10 lg:col-span-3 lg:flex-row lg:items-center">
-                <div className="lg:min-w-0 lg:flex-1">
-                  <h3 className="text-lg font-semibold leading-8 tracking-tight text-rose-500">
-                    Lash Wash
-                  </h3>
-                  <p className="mt-1 text-base leading-7 text-zinc-600">
-                    Get rid of itchy eyelashes, eye mucus, and accumulated
-                    makeup with our lash cleaning service. Our
-                    uniquely-formulated shampoo unclogs pores, promotes growth
-                    and enhances serum penetration for thicker, healthier
-                    lashes.
-                  </p>
-                </div>
-                <Link
-                  href="/booking"
-                  className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-rose-500 ring-1 ring-inset ring-rose-200 hover:ring-rose-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500"
-                >
-                  Book a $5 lash wash <span aria-hidden="true">&rarr;</span>
-                </Link>
-              </div>
+              {/* Next pricing tier */}
             </div>
+            {/* Deluxe packages */}
+            <DeluxeBrowPackages />
           </div>
         </div>
       </div>

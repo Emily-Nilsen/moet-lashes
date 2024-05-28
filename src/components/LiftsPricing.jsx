@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Link from 'next/link'
 import { RadioGroup } from '@headlessui/react'
 import { CheckIcon, PhoneIcon, ClockIcon } from '@heroicons/react/20/solid'
 
@@ -151,6 +152,27 @@ export function LiftsPricing() {
               </ul>
             </div>
           ))}
+          {/* Lash wash */}
+
+          <div className="mx-auto mt-12 flex max-w-4xl flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-rose-600/20 sm:gap-y-10 sm:p-10 lg:col-span-3 lg:flex-row lg:items-center">
+            <div className="lg:min-w-0 lg:flex-1">
+              <h3 className="text-lg font-semibold leading-8 tracking-tight text-rose-500">
+                Lash Wash
+              </h3>
+              <p className="mt-1 text-base leading-7 text-zinc-600">
+                Get rid of itchy eyelashes, eye mucus, and accumulated makeup
+                with our lash cleaning service. Our uniquely-formulated shampoo
+                unclogs pores, promotes growth and enhances serum penetration
+                for thicker, healthier lashes.
+              </p>
+            </div>
+            <Link
+              href="/booking"
+              className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-rose-500 ring-1 ring-inset ring-rose-200 hover:ring-rose-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500"
+            >
+              Book a $5 lash wash <span aria-hidden="true">&rarr;</span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
