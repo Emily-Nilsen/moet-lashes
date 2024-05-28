@@ -1,4 +1,4 @@
-import { CheckIcon } from '@heroicons/react/20/solid'
+import { CheckIcon, PhoneIcon, ClockIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 
 const tiers = [
@@ -58,7 +58,7 @@ function classNames(...classes) {
 
 export function WaxingPrices() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white pb-6 pt-24 sm:pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-base font-semibold leading-7 text-rose-600">
@@ -109,6 +109,15 @@ export function WaxingPrices() {
                     {tier.price}
                   </span>
                 </p>
+                <h2 className="align-center flex pb-3 pt-6 text-xs font-bold tracking-wide text-rose-400">
+                  <span>
+                    <ClockIcon
+                      className="mr-1 h-4 w-4 text-rose-300"
+                      aria-hidden="true"
+                    />
+                  </span>
+                  {tier.time}
+                </h2>
                 <ul
                   role="list"
                   className="mt-8 space-y-3 text-sm leading-6 text-gray-600"
@@ -138,6 +147,34 @@ export function WaxingPrices() {
               </a>
             </div>
           ))}
+          {/* Brow tint */}
+
+          <div className="mx-auto flex max-w-4xl flex-col items-start gap-x-8 gap-y-6 rounded-3xl bg-rose-50 p-8 shadow-2xl shadow-gray-500/10 ring-1 ring-rose-600/20 sm:mt-12 sm:gap-y-10 sm:p-10 lg:col-span-3 lg:flex-row lg:items-center">
+            <div className="lg:min-w-0 lg:flex-1">
+              <h1 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                Brow Tint Application
+              </h1>
+              <h2 className="align-center flex pb-3 pt-6 text-xs font-bold tracking-wide text-rose-400">
+                <span>
+                  <ClockIcon
+                    className="mr-1 h-4 w-4 text-rose-300"
+                    aria-hidden="true"
+                  />
+                </span>
+                15 min
+              </h2>
+              <p className="mt-1 text-base leading-7 text-zinc-600">
+                Add depth and definition to your brows with a professional brow
+                tint application.
+              </p>
+            </div>
+            <Link
+              href="tel:61466609975"
+              className="rounded-md bg-white px-3.5 py-2 text-sm font-semibold leading-6 text-rose-500 ring-1 ring-inset ring-rose-200 hover:ring-rose-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500"
+            >
+              Book a $15 Brow Tint <span aria-hidden="true">&rarr;</span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
