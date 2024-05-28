@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { CheckIcon, PhoneIcon, ClockIcon } from '@heroicons/react/20/solid'
 import { DeluxeBrowPackages } from './DeluxeBrowPackages'
+import { WaxingPrices } from './WaxingPrices'
 
 const tiers = [
   {
@@ -152,6 +153,8 @@ export function BrowsPricing() {
               ))}
               {/* Next pricing tier */}
             </div>
+            {/* Waxing prices */}
+            <WaxingPrices />
             {/* Deluxe packages */}
             <DeluxeBrowPackages />
           </div>
