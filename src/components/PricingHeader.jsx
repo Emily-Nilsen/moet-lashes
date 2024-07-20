@@ -10,7 +10,7 @@ export function PricingHeader() {
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:hidden sm:py-32">
         <div>
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/co_rgb:18181B,e_colorize:70/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/pricing_fazhzg.webp"
+            src="/images/general/pricing_mobile.webp"
             alt="Moêt Lashes pricing"
             fill
             className="absolute inset-0 -z-10 h-full w-full object-cover"
@@ -43,7 +43,7 @@ export function PricingHeader() {
         <svg
           viewBox="0 0 1097 845"
           aria-hidden="true"
-          className="absolute left-1/2 -top-52 -z-10 w-[68.5625rem] -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0"
+          className="absolute -top-52 left-1/2 -z-10 w-[68.5625rem] -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0"
         >
           <path
             fill="url(#8ddc7edb-8983-4cd7-bccb-79ad21097d70)"
@@ -65,7 +65,7 @@ export function PricingHeader() {
           </defs>
         </svg>
         <div className="z-1 relative mx-auto max-w-2xl text-center">
-          <h1 className="mt-10 -mb-10 pt-20 text-center text-5xl font-extrabold tracking-tight sm:text-6xl lg:text-7xl">
+          <h1 className="-mb-10 mt-10 pt-20 text-center text-5xl font-extrabold tracking-tight sm:text-6xl lg:text-7xl">
             <span className="text-white">Our</span>{' '}
             <span className="font-medium italic text-rose-200">pricing</span>
           </h1>
@@ -82,7 +82,7 @@ export function PricingHeader() {
           }}
         >
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/co_rgb:18181B,e_colorize:70/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/pricing_fazhzg.webp"
+            src="/images/general/pricing_desktop.webp"
             alt="Moêt Lashes pricing"
             fill
             className="absolute inset-0 -z-10 h-full w-full object-cover"
@@ -115,7 +115,7 @@ export function PricingHeader() {
         <svg
           viewBox="0 0 1097 845"
           aria-hidden="true"
-          className="absolute left-1/2 -top-52 -z-10 w-[68.5625rem] -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0"
+          className="absolute -top-52 left-1/2 -z-10 w-[68.5625rem] -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0"
         >
           <path
             fill="url(#8ddc7edb-8983-4cd7-bccb-79ad21097d70)"
@@ -137,7 +137,7 @@ export function PricingHeader() {
           </defs>
         </svg>
         <div className="z-1 relative mx-auto max-w-2xl text-center">
-          <h1 className="mt-10 -mb-10 pt-20 text-center text-5xl font-extrabold tracking-tight sm:text-6xl lg:text-7xl">
+          <h1 className="-mb-10 mt-10 pt-20 text-center text-5xl font-extrabold tracking-tight sm:text-6xl lg:text-7xl">
             <span className="text-white">Our</span>{' '}
             <span className="font-medium italic text-rose-200">pricing</span>
           </h1>
