@@ -30,7 +30,7 @@ export default function Home() {
         <Hero />
 
         <CallToAction
-          imgUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moetlashes-img-2_myvur9.webp"
+          imgUrl="/images/general/hero-call-to-action.webp"
           title="Get the look you"
           titleEmphasis="want"
           description="Define your lashes and brows at Moët Lashes."
