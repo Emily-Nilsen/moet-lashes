@@ -1,11 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { StarIcon } from '@heroicons/react/24/solid'
-import { Fragment } from 'react'
+import { StarIcon, ChevronDownIcon } from '@heroicons/react/24/solid'
+import { Fragment, useState } from 'react'
 import { Menu, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/24/solid'
-import React, { useState } from 'react'
-import { Disclosure } from '@headlessui/react'
 
 const reviews = {
   average: 5,
@@ -18,17 +15,14 @@ const reviews = {
     { rating: 1, count: 0 },
   ],
   featured: [
-    // More reviews...
     {
       id: 62,
       rating: 5,
       content: `
         <p>I got my lashes done at Moet twice and it has never disappointed! The lash itself is very light and the glue does not irritate my eyes much, the tech is really gentle and communicates well.
-I got the double lashes, they were perfectly done and lasted really long, 4 weeks in and I still have almost full set volume just a bit more natural now.</p>
+        I got the double lashes, they were perfectly done and lasted really long, 4 weeks in and I still have almost full set volume just a bit more natural now.</p>
       `,
       author: 'Chloo',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_62_hjdn07.webp',
     },
     {
       id: 61,
@@ -37,8 +31,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p></p>
       `,
       author: 'Nahani Rose',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_61_dkamqe.webp',
     },
     {
       id: 60,
@@ -47,8 +39,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p></p>
       `,
       author: 'Yen Nhi Luu',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_60_t3ce5d.webp',
     },
     {
       id: 59,
@@ -57,8 +47,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p>Perfect! I have long lasting natural lashes still in great condition (straight) after 3 weeks. Highly recommended.</p>
       `,
       author: 'Shirley Innes',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_59_o1anrh.webp',
     },
     {
       id: 58,
@@ -67,8 +55,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p>went here for my first sets of lashes ever, couldnt ask for any better, they are so natural and i got SO many compliments on them. so satisfied, never going anywhere else</p>
       `,
       author: 'catherine',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_58_wm9egq.webp',
     },
     {
       id: 57,
@@ -77,8 +63,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p>So happy with my eyelash extensions. Very friendly, professional service and they took the time to find out the exact look I was wanting. Very happy with the results and very fairly priced.</p>
       `,
       author: 'Kylie Achurch',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_57_cz4rrw.webp',
     },
     {
       id: 56,
@@ -87,8 +71,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p></p>
       `,
       author: 'Tamza Ramza',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_56_nywno3.webp',
     },
     {
       id: 55,
@@ -97,8 +79,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p>These were my first ever eyelash extensions and I couldn't have asked for any better! The price was great and she did a lovely job and I absolutely adore my lashes! She was very gentle and super polite and I enjoyed conversing with her, I could tell she was very professional at her job, I will definitely be coming back!</p>
       `,
       author: 'Sarah Newton',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_55_dm1xe7.webp',
     },
     {
       id: 54,
@@ -107,8 +87,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p>Very good service</p>
       `,
       author: 'Gwen Kitchin',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_54_tntpiv.webp',
     },
     {
       id: 53,
@@ -117,8 +95,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p>Always perfect lashes 😍💟</p>
       `,
       author: 'maria grimaldi',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_53_bbwgvv.webp',
     },
     {
       id: 52,
@@ -127,8 +103,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p>I love Moët. Amazing quality lashes exactly what I had asked for! Thank you!</p>
       `,
       author: 'Chloe Kent',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_52_r46cgv.webp',
     },
     {
       id: 51,
@@ -137,8 +111,6 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
         <p>I get my ideal eyelashes here every time I come. highly recommend polite and professional treatment</p>
       `,
       author: 'Keiko',
-      avatarSrc:
-        'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/flowers/flower_51_dv8ps8.webp',
     },
     {
       id: 50,
@@ -660,13 +632,18 @@ I got the double lashes, they were perfectly done and lasted really long, 4 week
       avatarSrc:
         'https://res.cloudinary.com/dt3k2apqd/image/upload/f_auto,q_auto/Mo%C3%ABt%20Lashes/flowers/flowers-13_syzof9.jpg',
     },
+    // Other reviews...
   ],
 }
 
-// const reviewsTotalCount = Object.keys(reviews.featured).length;
+// Generate local image URLs
+reviews.featured = reviews.featured.map((review, index) => ({
+  ...review,
+  avatarSrc: `/images/flowers/flower_${(index % 100) + 1}.webp`,
+}))
 
 const reviewPreviews = reviews.featured.slice(0, 3)
-const reviewRemaining = reviews.featured.slice(4)
+const reviewRemaining = reviews.featured.slice(3)
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -676,7 +653,6 @@ export function CustomerReviews() {
   const [isActive, setIsActive] = useState(false)
 
   const handleClick = (event) => {
-    // 👇️ toggle isActive state on click
     setIsActive((current) => !current)
   }
 
@@ -763,14 +739,14 @@ export function CustomerReviews() {
               Please feel free to write your own Google review!
             </p>
 
-            <a
+            <Link
               href="https://www.google.com/search?q=moet+lashes+cairns&sxsrf=ALiCzsbHz1T1TU9NE5phVzZgocO6-tS8vg%3A1653657673106&source=hp&ei=SNCQYqCwOrqRxc8Pye2b2Ak&iflsig=AJiK0e8AAAAAYpDeWbYSzNNWZTtLSBEl7vu2H1U9uIqJ&oq=moe&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCMQJzIECAAQQzIKCC4QxwEQ0QMQQzIOCC4QgAQQxwEQ0QMQ1AIyCwguEIAEEMcBENEDMgUILhCABDIICC4QgAQQ1AIyCwguEIAEEMcBEK8BMgsILhCABBDHARCvATIFCAAQgAQ6BAguECc6CwguEIAEEMcBEKMCUABY2ANgxSFoAHAAeACAAW2IAasCkgEDMS4ymAEAoAEB&sclient=gws-wiz#lrd=0x697867d234fcefb7:0x6a54fdadd7fc308d,1,,,"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center w-full px-8 py-2 mt-6 text-sm font-medium transition duration-300 ease-in-out bg-white border rounded-full border-zinc-300 text-zinc-900 hover:bg-rose-400 hover:text-white sm:w-auto lg:w-full"
             >
               Write a review
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -814,9 +790,6 @@ export function CustomerReviews() {
 
                   <div
                     className="mt-4 space-y-6 text-base italic text-zinc-600"
-                    // className={`${'mt-4 space-y-6 text-base italic text-zinc-600'} ${
-                    //   isActive ? '' : 'line-clamp-2'
-                    // }`}
                     dangerouslySetInnerHTML={{ __html: review.content }}
                   />
                   <span>
@@ -833,7 +806,6 @@ export function CustomerReviews() {
           </div>
         </div>
       </div>
-      {/* Read more functionality */}
       <div className="flex lg:mt-0">
         <Menu as="div" className="relative flex justify-end mt-4">
           <div>
@@ -867,8 +839,7 @@ export function CustomerReviews() {
                               src={review.avatarSrc}
                               alt={`${review.author}.`}
                               className="rounded-full"
-                              unoptimized={true}
-                              layout="fill"
+                              fill
                               objectFit="cover"
                               objectPosition="center"
                             />
