@@ -163,7 +163,7 @@ export function Instagram() {
 
   return (
     <div className="bg-white sm:pb-0">
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:pt-24 sm:pb-16 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:pb-16 sm:pt-24 lg:px-8">
         <div className="text-center">
           <h1 className="mt-1 text-4xl font-extrabold leading-tight text-zinc-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
             Join us on{' '}
@@ -185,7 +185,7 @@ export function Instagram() {
           <div>
             <div className="flex h-full w-full items-center overflow-hidden overflow-x-hidden bg-zinc-800 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1654084513/Mo%C3%ABt%20Lashes/promos/pink-pink_bjpdw3.png"
+                src="/images/instagram/pink-pink.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -214,7 +214,7 @@ export function Instagram() {
           >
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981918/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_3_ys7fz5.jpg"
+                src="/images/instagram/eye_3.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -223,7 +223,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-zinc-800 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-pink_svy7es.svg"
+                src="/images/instagram/light-pink.svg"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -232,7 +232,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-purple-400 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981919/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_12_urtkg7.jpg"
+                src="/images/instagram/eye_12.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -241,7 +241,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-rose-100 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-rose-400_xnflnb.svg"
+                src="/images/instagram/rose-pink.svg"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -250,7 +250,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-orange-400 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981918/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_10_n0wnzr.jpg"
+                src="/images/instagram/eye_10.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -259,7 +259,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-rose-200 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-zinc_oj2esw.svg"
+                src="/images/instagram/zinc.svg"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -268,7 +268,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-purple-400 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981918/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_2_h5xnbu.jpg"
+                src="/images/instagram/eye_2.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -281,11 +281,11 @@ export function Instagram() {
           <motion.div
             animate={imageReelTwo}
             viewport={{ once: true }}
-            className="absolute top-1/3 right-0 z-10 grid h-1/3 w-[140vw] grid-cols-7 overflow-hidden shadow-lg"
+            className="absolute right-0 top-1/3 z-10 grid h-1/3 w-[140vw] grid-cols-7 overflow-hidden shadow-lg"
           >
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-rose-100 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-rose-400_xnflnb.svg"
+                src="/images/instagram/rose-pink.svg"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -294,7 +294,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-zinc-800 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981918/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_1_nckzjr.jpg"
+                src="/images/instagram/eye_1.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -303,7 +303,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-rose-200 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-zinc_oj2esw.svg"
+                src="/images/instagram/zinc.svg"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -312,7 +312,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-rose-100 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981918/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_9_srpxrn.jpg"
+                src="/images/instagram/eye_9.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -321,7 +321,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-zinc-800 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-pink_svy7es.svg"
+                src="/images/instagram/light-pink.svg"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -330,7 +330,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-rose-200 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981919/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_6_yposnj.jpg"
+                src="/images/instagram/eye_6.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -339,7 +339,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-rose-100 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-rose-400_xnflnb.svg"
+                src="/images/instagram/rose-pink.svg"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -356,7 +356,7 @@ export function Instagram() {
           >
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-purple-400 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981918/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_7_xp2ylz.jpg"
+                src="/images/instagram/eye_7.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -365,7 +365,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-zinc-800 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-pink_svy7es.svg"
+                src="/images/instagram/light-pink.svg"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -374,7 +374,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-purple-400 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981919/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_14_nzzz6c.jpg"
+                src="/images/instagram/eye_14.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -383,7 +383,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-rose-100 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-rose-400_xnflnb.svg"
+                src="/images/instagram/rose-pink.svg"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -392,7 +392,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-orange-400 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981918/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_8_eo6smm.jpg"
+                src="/images/instagram/eye_8.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -401,7 +401,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-rose-200 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-zinc_oj2esw.svg"
+                src="/images/instagram/zinc.svg"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
@@ -410,7 +410,7 @@ export function Instagram() {
             </div>
             <div className="relative col-span-1 flex h-full w-full justify-center overflow-hidden bg-purple-400 object-cover object-center">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653981919/Mo%C3%ABt%20Lashes/customer%27s%20eyes/eye_11_lv30sf.jpg"
+                src="/images/instagram/eye_11.webp"
                 alt="Moët Lashes Eyelash Salon"
                 fill
                 unoptimized
