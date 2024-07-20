@@ -16,7 +16,7 @@ export function HeaderNav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-t absolute top-0 left-0 z-20 w-full sm:p-6 lg:pb-0">
+    <header className="bg-t absolute left-0 top-0 z-20 w-full sm:p-6 lg:pb-0">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -27,7 +27,7 @@ export function HeaderNav() {
             <Image
               height={40}
               width={104}
-              src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/SVGs/moet-pink_svy7es.svg"
+              src="/images/instagram/light-pink.svg"
               alt="Moët Lashes logo pink"
             />
           </Link>
@@ -68,7 +68,7 @@ export function HeaderNav() {
               <Image
                 height={40}
                 width={104}
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/SVGs/moet-zinc_oj2esw.svg"
+                src="/images/instagram/zinc.svg"
                 alt="Moët Lashes logo black"
               />
             </div>
