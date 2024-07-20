@@ -49,7 +49,7 @@ export function Footer() {
   return (
     <footer className="bg-slate-50">
       <Container>
-        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8 xl:col-span-1">
               <Link href="/" passHref>
@@ -57,7 +57,7 @@ export function Footer() {
                   <Image
                     height={40}
                     width={104}
-                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-zinc_oj2esw.svg"
+                    src="/images/svgs/logo-zinc.svg"
                     alt="Moët Lashes logo"
                   />
                 </div>
