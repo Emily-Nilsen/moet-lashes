@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-1.webp'
 import { PhoneIcon } from '@heroicons/react/20/solid'
 import { motion } from 'framer-motion'
 
@@ -62,7 +61,7 @@ export function CallToAction({
                   <p>{btnText}</p>
 
                   <PhoneIcon
-                    className="ml-3 -mr-1 h-5 w-5 text-rose-300 group-hover:text-rose-50"
+                    className="-mr-1 ml-3 h-5 w-5 text-rose-300 group-hover:text-rose-50"
                     aria-hidden="true"
                   />
                 </a>

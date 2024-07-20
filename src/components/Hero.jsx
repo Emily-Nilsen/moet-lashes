@@ -41,7 +41,7 @@ export function Hero() {
           <div className="absolute inset-0 sm:hidden">
             <div className="h-full w-full object-cover">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/home-hero-mobile-v2_iuy2gz.webp"
+                src="/images/general/home-hero-mobile.webp"
                 alt="Moët Lashes"
                 fill
                 priority
@@ -65,7 +65,7 @@ export function Hero() {
               className="h-full w-full object-cover"
             >
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moe-hero_qq11pi.webp"
+                src="/images/general/home-hero-desktop.webp"
                 alt="Moët Lashes"
                 fill
                 priority
@@ -78,10 +78,10 @@ export function Hero() {
             />
           </div>
           <Popover as="div" className="relative z-10">
-            <div className="relative mx-auto flex max-w-7xl items-center justify-between px-4 pt-6 pb-2 sm:px-6 lg:px-8"></div>
+            <div className="relative mx-auto flex max-w-7xl items-center justify-between px-4 pb-2 pt-6 sm:px-6 lg:px-8"></div>
           </Popover>
 
-          <div className="relative mx-auto mt-24 max-w-md px-4 pt-32 pb-16 sm:max-w-3xl sm:px-6 md:mt-32 lg:max-w-7xl lg:px-8">
+          <div className="relative mx-auto mt-24 max-w-md px-4 pb-16 pt-32 sm:max-w-3xl sm:px-6 md:mt-32 lg:max-w-7xl lg:px-8">
             <h2 id="features-heading" className="font-bold text-rose-200">
               Cairns City
             </h2>
@@ -107,7 +107,7 @@ export function Hero() {
                 Cairns City eyelash extensions
               </h2>
               {/* Mobile */}
-              <div className="grid grid-cols-1 gap-y-12 sm:hidden sm:gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+              <div className="grid grid-cols-1 gap-y-12 sm:hidden sm:gap-y-20 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0">
                 {features.map((feature, i) => (
                   <div
                     key={i}
@@ -134,7 +134,7 @@ export function Hero() {
                 ))}
               </div>
               {/* Desktop */}
-              <div className="hidden grid-cols-1 gap-y-12 sm:grid sm:gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+              <div className="hidden grid-cols-1 gap-y-12 sm:grid sm:gap-y-20 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0">
                 {features.map((feature, i) => (
                   <motion.div
                     initial={{
@@ -174,7 +174,7 @@ export function Hero() {
             </section>
           </div>
           {/* Lashes */}
-          <div className="mx-auto max-w-7xl px-6 py-12 sm:py-20 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-6 py-12 sm:px-6 sm:py-20 lg:px-8">
             <div className="text-center">
               <h1 className="mx-auto mt-1 max-w-3xl text-4xl font-normal leading-tight text-rose-400 sm:text-5xl sm:tracking-tight lg:text-6xl">
                 The secret to
