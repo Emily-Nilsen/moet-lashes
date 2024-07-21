@@ -62,6 +62,7 @@ export function HeroBooking() {
                 fill
                 priority
                 className="object-cover"
+                unoptimized
               />
             </div>
             <div className="absolute inset-0 bg-zinc-900/20" />
@@ -87,6 +88,7 @@ export function HeroBooking() {
                 fill
                 priority
                 className="object-cover"
+                unoptimized
               />
             </motion.div>
             <div className="absolute inset-0 bg-zinc-900/20" />

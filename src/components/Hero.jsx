@@ -46,6 +46,7 @@ export function Hero() {
                 fill
                 priority
                 className="object-cover object-left"
+                unoptimized
               />
             </div>
             <div
@@ -70,6 +71,7 @@ export function Hero() {
                 fill
                 priority
                 className="object-cover"
+                unoptimized
               />
             </motion.div>
             <div

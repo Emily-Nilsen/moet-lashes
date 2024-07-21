@@ -26,6 +26,7 @@ export function HeroSimple({ imageDesktop, imageMobile, textWhite, textPink }) {
                 fill
                 className="object-cover"
                 priority
+                unoptimized
               />
             </div>
             <div
@@ -54,6 +55,7 @@ export function HeroSimple({ imageDesktop, imageMobile, textWhite, textPink }) {
                 fill
                 className="object-cover"
                 priority
+                unoptimized
               />
             </motion.div>
             <div
