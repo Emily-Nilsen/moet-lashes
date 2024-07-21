@@ -13,7 +13,7 @@ export function Lifts() {
           >
             <div className="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-rose-50 lg:right-72" />
             <svg
-              className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
+              className="absolute left-1/2 top-8 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
               width={404}
               height={392}
               fill="none"
@@ -47,12 +47,12 @@ export function Lifts() {
           </div>
           <div className="relative mx-auto max-w-md px-6 sm:max-w-3xl lg:max-w-none lg:px-0 lg:py-20">
             {/* Testimonial card*/}
-            <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
+            <div className="relative overflow-hidden rounded-2xl pb-10 pt-64 shadow-xl">
               {/* Mobile */}
               <div>
                 <Image
                   className="absolute inset-0 h-full w-full object-cover sm:hidden"
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/curling_u5rexx.webp"
+                  src="/images/general/lashes-image-2.webp"
                   alt="The process of curling your lashes"
                   fill
                 />
@@ -68,7 +68,7 @@ export function Lifts() {
               >
                 <Image
                   className="absolute inset-0 hidden h-full w-full object-cover sm:block"
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/curling_u5rexx.webp"
+                  src="/images/general/lashes-image-2.webp"
                   alt="The process of curling your lashes"
                   fill
                 />

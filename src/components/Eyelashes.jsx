@@ -16,7 +16,7 @@ export function Eyelashes() {
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
           <div className="relative lg:col-start-2 lg:row-start-1">
             <svg
-              className="absolute top-0 right-0 -mt-20 -mr-20 hidden lg:block"
+              className="absolute right-0 top-0 -mr-20 -mt-20 hidden lg:block"
               width={404}
               height={384}
               fill="none"
@@ -51,10 +51,10 @@ export function Eyelashes() {
             <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
                 {/* Mobile */}
-                <div className="aspect-w-12 aspect-h-7 sm:hidden lg:aspect-none">
+                <div className="aspect-h-7 aspect-w-12 lg:aspect-none sm:hidden">
                   <Image
                     className="rounded-lg object-cover object-center shadow-lg"
-                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyelash_individual_hwktih.webp"
+                    src="/images/general/lashes-image-1.webp"
                     alt="The process of eyebrow lamination"
                     width={1000}
                     height={681}
@@ -68,11 +68,11 @@ export function Eyelashes() {
                     duration: 0.5,
                     type: 'fade',
                   }}
-                  className="aspect-w-12 aspect-h-7 hidden sm:block lg:aspect-none"
+                  className="aspect-h-7 aspect-w-12 hidden lg:aspect-none sm:block"
                 >
                   <Image
                     className="rounded-lg object-cover object-center shadow-lg"
-                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyelash_individual_hwktih.webp"
+                    src="/images/general/lashes-image-1.webp"
                     alt="The process of eyebrow lamination"
                     width={1000}
                     height={681}

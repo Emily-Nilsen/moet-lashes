@@ -7,7 +7,7 @@ export function Divider() {
       {/* Mobile */}
       <div className="relative isolate w-screen overflow-hidden bg-gray-900 px-6 py-32 sm:hidden sm:py-48 lg:px-8">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/divider-mobile_ac2qb0.webp"
+          src="/images/general/divider-mobile.webp"
           alt="Moët Lashes natural lashes"
           fill
           className="absolute inset-0 -z-10 h-full w-full object-cover"
@@ -39,7 +39,7 @@ export function Divider() {
         <svg
           viewBox="0 0 1097 845"
           aria-hidden="true"
-          className="absolute left-1/2 -top-52 -z-10 w-[68.5625rem] -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0"
+          className="absolute -top-52 left-1/2 -z-10 w-[68.5625rem] -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0"
         >
           <path
             fill="url(#8ddc7edb-8983-4cd7-bccb-79ad21097d70)"
@@ -72,7 +72,7 @@ export function Divider() {
         className="relative isolate hidden w-screen overflow-hidden bg-gray-900 px-6 py-32 sm:block sm:py-48 lg:px-8"
       >
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/natural_lashes_grlh3g.webp"
+          src="/images/general/divider-desktop.webp"
           alt="Moët Lashes natural lashes"
           fill
           className="absolute inset-0 -z-10 h-full w-full object-cover"
@@ -104,7 +104,7 @@ export function Divider() {
         <svg
           viewBox="0 0 1097 845"
           aria-hidden="true"
-          className="absolute left-1/2 -top-52 -z-10 w-[68.5625rem] -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0"
+          className="absolute -top-52 left-1/2 -z-10 w-[68.5625rem] -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0"
         >
           <path
             fill="url(#8ddc7edb-8983-4cd7-bccb-79ad21097d70)"

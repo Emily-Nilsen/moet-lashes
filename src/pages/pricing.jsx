@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { HeroSimple } from '@/components/HeroSimple'
 import { Footer } from '@/components/Footer'
-import { PricingHeader } from '@/components/PricingHeader'
 import { LashesPricing } from '@/components/LashesPricing'
 import { LiftsPricing } from '@/components/LiftsPricing'
 import { BrowsPricing } from '@/components/BrowsPricing'
@@ -22,7 +22,12 @@ export default function Pricing() {
       </Head>
 
       <main>
-        <PricingHeader />
+        <HeroSimple
+          imageDesktop="/images/general/pricing_desktop.webp"
+          imageMobile="/images/general/pricing_mobile.webp"
+          textWhite="Our"
+          textPink="Pricing"
+        />
         <LashesPricing />
         <LiftsPricing />
         <BrowsPricing />

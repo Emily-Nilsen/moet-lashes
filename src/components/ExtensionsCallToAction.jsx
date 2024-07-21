@@ -10,7 +10,7 @@ export function ExtensionsCallToAction() {
         {/* Mobile */}
         <div className="relative h-full w-full object-cover sm:hidden">
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moetlashes-img-1_olyxfe.webp"
+            src="/images/general/lashes-call-to-action-mobile.webp"
             alt="Add volume and length"
             fill
             className="h-full w-full object-cover"
@@ -27,7 +27,7 @@ export function ExtensionsCallToAction() {
           className="relative hidden h-full w-full object-cover sm:block"
         >
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/moetlashes-img-1_olyxfe.webp"
+            src="/images/general/lashes-call-to-action.webp"
             alt="Add volume and length"
             fill
             className="h-full w-full object-cover"
@@ -53,7 +53,7 @@ export function ExtensionsCallToAction() {
                 <p>Call our salon</p>
 
                 <PhoneIcon
-                  className="ml-3 -mr-1 h-5 w-5 text-rose-300 group-hover:text-rose-50"
+                  className="-mr-1 ml-3 h-5 w-5 text-rose-300 group-hover:text-rose-50"
                   aria-hidden="true"
                 />
               </a>

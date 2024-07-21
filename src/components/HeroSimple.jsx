@@ -66,8 +66,8 @@ export function HeroSimple({ imageDesktop, imageMobile, textWhite, textPink }) {
             />
           </div>
 
-          <div className="relative px-4 py-24 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-            <h1 className="mt-24 -mb-16 pt-20 text-left text-5xl font-extrabold tracking-tight sm:text-6xl md:mt-48 lg:text-7xl">
+          <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
+            <h1 className="-mb-16 mt-24 pt-20 text-left text-5xl font-extrabold tracking-tight sm:text-6xl md:mt-48 lg:text-7xl">
               <span className="text-white">{textWhite} </span>
               <span className="font-medium italic text-rose-200">
                 {textPink}
