@@ -57,7 +57,7 @@ export function Lamination() {
                 <div className="aspect-h-7 aspect-w-12 lg:aspect-none sm:hidden">
                   <Image
                     className="rounded-lg object-cover object-center shadow-lg"
-                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyebrows-5_mqothu.webp"
+                    src="/images/general/brows-image-1.webp"
                     alt="The process of eyebrow lamination"
                     width={2000}
                     height={1334}
@@ -75,7 +75,7 @@ export function Lamination() {
                 >
                   <Image
                     className="rounded-lg object-cover object-center shadow-lg"
-                    src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyebrows-5_mqothu.webp"
+                    src="/images/general/brows-image-1.webp"
                     alt="The process of eyebrow lamination"
                     width={2000}
                     height={1334}

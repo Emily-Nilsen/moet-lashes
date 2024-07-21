@@ -19,7 +19,7 @@ export function LaminationSafety() {
               className="lg:aspect-square h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:h-auto lg:max-w-sm"
               width={752}
               height={752}
-              src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/eyebrows_-_original_remacri_yjx9rk.webp"
+              src="/images/general/brows-image-2.webp"
               alt="Eyebrow lamination tools and equipment"
             />
             <div className="w-full flex-auto">

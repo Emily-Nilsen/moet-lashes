@@ -51,7 +51,7 @@ export function Waxing() {
             <div className="relative overflow-hidden rounded-2xl pb-10 pt-64 shadow-xl sm:hidden">
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyebrows-6_ybkep1.webp"
+                src="/images/general/brows-image-3.webp"
                 alt="The process of eyebrow waxing"
                 fill
               />
@@ -80,7 +80,7 @@ export function Waxing() {
             >
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/eyebrows-6_ybkep1.webp"
+                src="/images/general/brows-image-3.webp"
                 alt="The process of eyebrow waxing"
                 fill
               />

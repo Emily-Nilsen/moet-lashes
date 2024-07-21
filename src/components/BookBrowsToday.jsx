@@ -32,14 +32,14 @@ export function BookBrowsToday() {
           <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
             <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1716816122/Mo%C3%ABt%20Lashes/general/tinting_mobile_j5dgvt.webp"
+                src="/images/general/brows-image-4-mobile.webp"
                 alt="Eyebrow tinting service"
                 width={384}
                 height={512}
                 className="aspect-[1/1] w-[18rem] max-w-none rounded-2xl bg-gray-50 object-cover sm:hidden"
               />
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/tinting_ifx3o8.webp"
+                src="/images/general/brows-image-4-desktop.webp"
                 alt="Eyebrow tinting service"
                 width={384}
                 height={512}
@@ -49,7 +49,7 @@ export function BookBrowsToday() {
             <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
               <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/LaminationSafety_t2syr6.webp"
+                  src="/images/general/brows-image-5.webp"
                   width={256}
                   height={192}
                   alt="Eyebrows before and after lamination"
@@ -58,14 +58,14 @@ export function BookBrowsToday() {
               </div>
               <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1716815910/Mo%C3%ABt%20Lashes/general/eyebrow_mobile_yup2nk.webp"
+                  src="/images/general/brows-image-6-mobile.webp"
                   alt="Styled eyebrows after lamination"
                   width={384}
                   height={512}
                   className="aspect-[16/9] w-[26rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover sm:hidden sm:aspect-[7/5]"
                 />
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/eyebrows_dhwort.webp"
+                  src="/images/general/brows-image-6-desktop.webp"
                   alt="Styled eyebrows after lamination"
                   width={384}
                   height={512}
@@ -74,7 +74,7 @@ export function BookBrowsToday() {
               </div>
               <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                 <Image
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Mo%C3%ABt%20Lashes/general/brows_lashes_m7sqfb.webp"
+                  src="/images/general/brows-image-7.webp"
                   alt="Styled eyebrows after lamination"
                   width={384}
                   height={512}
