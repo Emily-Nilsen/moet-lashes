@@ -9,10 +9,7 @@ export default function Document(props) {
       lang="en"
     >
       <Head>
-        <link
-          rel="icon"
-          href="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670636/Mo%C3%ABt%20Lashes/SVGs/moet-favicon_qrqvht.svg"
-        />
+        <link rel="icon" href="/images/svgs/icon.svg" />
         <link
           rel="stylesheet"
           href="https://use.typekit.net/ccb1sla.css"

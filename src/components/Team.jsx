@@ -4,14 +4,12 @@ const people = [
   {
     name: 'Moe',
     role: 'Founder, Beauty Technician',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/Moe_circle_animation_t3ysw6.png',
+    imageUrl: '/images/general/moe.webp',
   },
   {
     name: 'Chie',
     role: 'Beauty Technician',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto,f_auto/Mo%C3%ABt%20Lashes/general/Chie_m0cfrk.png',
+    imageUrl: '/images/general/chie.webp',
   },
 ]
 

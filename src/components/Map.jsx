@@ -53,7 +53,7 @@ export function Map() {
   return (
     <section>
       <div className="bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-12 sm:py-16 sm:px-6 sm:pt-24 sm:pb-16 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 sm:pb-16 sm:pt-24 lg:px-8">
           <div className="text-center">
             <h2 className="text-base font-semibold uppercase tracking-wide text-rose-500">
               orchid plaza
@@ -84,7 +84,7 @@ export function Map() {
           >
             <div className="flex h-2/3 w-2/3 items-center justify-center overflow-hidden object-cover object-center sm:h-full sm:w-full">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1653670637/Mo%C3%ABt%20Lashes/SVGs/moet-zinc_oj2esw.svg"
+                src="/images/instagram/zinc.svg"
                 alt="Moët Lashes Eyelash Salon"
                 intrinsic
                 className="object-cover object-center"
