@@ -14,7 +14,10 @@ export default function App({ Component, pageProps }) {
           property="og:description"
           content="Transform your look with a lash and brow treatment at Moët Lashes – Cairns City."
         />
-        <meta property="og:image" content="/images/general/og-image.webp" />
+        <meta
+          property="og:image"
+          content="/images/general/og-image-original.webp"
+        />
         <meta property="og:url" content="https://moet-lashes.com/" />
         <meta property="og:type" content="website" />
       </Head>
