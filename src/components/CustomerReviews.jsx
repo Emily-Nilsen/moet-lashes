@@ -6,15 +6,23 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 62,
+  totalCount: 63,
   counts: [
-    { rating: 5, count: 62 },
+    { rating: 5, count: 63 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
     { rating: 1, count: 0 },
   ],
   featured: [
+    {
+      id: 63,
+      rating: 5,
+      content: `
+        <p></p>
+      `,
+      author: 'Mya Lehmann',
+    },
     {
       id: 62,
       rating: 5,
