@@ -172,7 +172,7 @@ export function WaxingPrices() {
               href="tel:61466609975"
               className="rounded-md bg-white px-3.5 py-2 text-sm font-semibold leading-6 text-rose-500 ring-1 ring-inset ring-rose-200 hover:ring-rose-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500"
             >
-              Book a $15 Brow Tint <span aria-hidden="true">&rarr;</span>
+              Book a $35 Brow Tint <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>
         </div>
