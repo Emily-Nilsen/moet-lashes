@@ -19,8 +19,8 @@ const tiers = [
     features: [
       'It gives the most natural look',
       'Recommended for those who have never tried eyelash extensions before',
-      '$50 full-set infills (45 min)',
-      '$70 mega-set infills (75 min)',
+      '$55 full-set infills (45 min)',
+      '$85 mega-set infills (75 min)',
     ],
     mostPopular: false,
   },
@@ -35,8 +35,8 @@ const tiers = [
     features: [
       'It gives the illusion of fuller and fluffy-looking lashes',
       'Perfect for those who wear eye make-up daily',
-      '$60 full-set infills (60 min)',
-      '$80 mega-set infills (90 min)',
+      '$65 full-set infills (60 min)',
+      '$95 mega-set infills (90 min)',
     ],
     mostPopular: false,
   },
