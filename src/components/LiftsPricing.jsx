@@ -9,7 +9,7 @@ const tiers = [
     id: 'tier-tint',
     href: 'tel:61466609975',
     price: '$35',
-    time: '30 min',
+    time: '15 min',
     description: 'Black vegetable dye adds depth without extensions.',
     features: [
       'Adds depth and a deep black colour',
@@ -23,7 +23,7 @@ const tiers = [
     id: 'tier-lift-and-tint',
     href: 'tel:61466609975',
     price: '$85',
-    time: '90 min',
+    time: '75 min',
     description:
       'Curl, define and darken lashes without extensions using a safe vegetable dye.',
     features: [
