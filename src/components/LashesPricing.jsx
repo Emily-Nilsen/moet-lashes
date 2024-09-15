@@ -51,8 +51,8 @@ const tiers = [
     features: [
       'It achieves a dense and more defined lash line',
       'Recommended for those wishing to obtain a wow effect or those with sparse eyelashes',
-      '$70 full-set infills (60 min)',
-      '$90 mega-set infills (90 min)',
+      '$75 full-set infills (60 min)',
+      '$115 mega-set infills (90 min)',
     ],
     mostPopular: true,
   },
@@ -67,8 +67,8 @@ const tiers = [
     features: [
       'The resulting bouquet of volume lashes creates a dramatic and dark lash line',
       'Lashes look both fluffy and entirely natural',
-      '$80 full-set infills (75 min)',
-      '$100 mega-set infills (90 min)',
+      '$85 full-set infills (75 min)',
+      '$135 mega-set infills (90 min)',
     ],
     mostPopular: false,
   },
@@ -83,8 +83,8 @@ const tiers = [
     features: [
       'The unique hybrid eyelash extensions create a smooth and feathered look',
       'It achieves a natural-looking, more dramatic makeup look',
-      '$90 full-set infills (75 min)',
-      '$100 mega-set infills (90 min)',
+      '$95 full-set infills (75 min)',
+      '$145 mega-set infills (90 min)',
     ],
     mostPopular: false,
   },
