@@ -6,15 +6,23 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 63,
+  totalCount: 64,
   counts: [
-    { rating: 5, count: 63 },
+    { rating: 5, count: 64 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
     { rating: 1, count: 0 },
   ],
   featured: [
+    {
+      id: 64,
+      rating: 5,
+      content: `
+        <p>I love Chie's work, she got me, made the lashes fit my eyes and face shape, very good taste and the lashes last longer than any other salon. I have extended my lashes for many years in different cities, Chie is the best one, also I can say best experience in Cairns. Now will be hard to find next good one in new city.</p>
+      `,
+      author: 'Lisa',
+    },
     {
       id: 63,
       rating: 5,
