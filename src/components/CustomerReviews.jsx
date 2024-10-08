@@ -19,9 +19,9 @@ const reviews = {
       id: 65,
       rating: 5,
       content: `
-        <p>I love Chie's work, she got me, made the lashes fit my eyes and face shape, very good taste and the lashes last longer than any other salon. I have extended my lashes for many years in different cities, Chie is the best one, also I can say best experience in Cairns. Now will be hard to find next good one in new city.</p>
+        <p>Very nice and professional person, with reasonable prices, (lashes) i’m happy with what she did to me 😊</p>
       `,
-      author: 'Lisa',
+      author: 'Aline Moiteaux',
     },
     {
       id: 64,
