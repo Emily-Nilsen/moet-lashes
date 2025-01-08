@@ -6,15 +6,32 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 66,
+  totalCount: 69,
   counts: [
-    { rating: 5, count: 66 },
+    { rating: 5, count: 68 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
-    { rating: 1, count: 0 },
+    { rating: 1, count: 1 },
   ],
   featured: [
+    {
+      id: 68,
+      rating: 5,
+      content: `
+        <p></p>
+      `,
+      author: 'Bernt Nilsen',
+    },
+    {
+      id: 67,
+      rating: 5,
+      content: `
+        <p>First time getting my lashes done at Moët lashes and I must say I am so happy i didn’t quite know what I wanted and she knew what  to do I will 100% go back there again 😊🫰🏼
+</p>
+      `,
+      author: 'Joyce Samuel',
+    },
     {
       id: 66,
       rating: 5,
