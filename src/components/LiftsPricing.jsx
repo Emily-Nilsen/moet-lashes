@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import Link from 'next/link'
-import { RadioGroup } from '@headlessui/react'
 import { CheckIcon, PhoneIcon, ClockIcon } from '@heroicons/react/20/solid'
 
 const tiers = [
@@ -22,7 +20,7 @@ const tiers = [
     name: 'Lift & Tint',
     id: 'tier-lift-and-tint',
     href: 'tel:61466609975',
-    price: '$85',
+    price: '$90',
     time: '75 min',
     description:
       'Curl, define and darken lashes without extensions using a safe vegetable dye.',
@@ -39,7 +37,7 @@ const tiers = [
     name: 'Lift',
     id: 'tier-lift',
     href: 'tel:61466609975',
-    price: '$65',
+    price: '$70',
     time: '60 min',
     description: 'Define your natural lash line with a lift.',
     features: [
