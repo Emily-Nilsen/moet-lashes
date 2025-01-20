@@ -106,7 +106,7 @@ function EyelashRemoval() {
             <div className="mt-2 text-base leading-7 text-zinc-600">
               At Moët Lashes, we offer safe and gentle eyelash extension removal
               for $35. Get your lashes removed for{' '}
-              <span className="font-semibold text-zinc-900">only $10</span> if
+              <span className="font-semibold text-zinc-900">only $15</span> if
               you book any of our eyelash treatments.
             </div>
           </div>
