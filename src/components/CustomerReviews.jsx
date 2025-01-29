@@ -6,15 +6,23 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 69,
+  totalCount: 70,
   counts: [
-    { rating: 5, count: 68 },
+    { rating: 5, count: 69 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
     { rating: 1, count: 1 },
   ],
   featured: [
+    {
+      id: 69,
+      rating: 5,
+      content: `
+        <p>Best lashes in Cairns ! I just had lash lift & tint done & couldn’t be happier 😊 Moet is such a sweetheart…very polite & professional 😘 I’ll be her forever client !!</p>
+      `,
+      author: 'Maria Paul tankov',
+    },
     {
       id: 68,
       rating: 5,
