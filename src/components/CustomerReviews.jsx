@@ -6,15 +6,23 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 70,
+  totalCount: 71,
   counts: [
-    { rating: 5, count: 69 },
+    { rating: 5, count: 70 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
     { rating: 1, count: 1 },
   ],
   featured: [
+    {
+      id: 70,
+      rating: 5,
+      content: `
+        <p>I did my eyelashes extensions with Natsumi and I’m extremely satisfied. She’s doing such a great job! I’ll definitely come back! 😊</p>
+      `,
+      author: 'Ying Liu',
+    },
     {
       id: 69,
       rating: 5,
