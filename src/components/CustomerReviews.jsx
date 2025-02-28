@@ -6,15 +6,24 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 71,
+  totalCount: 72,
   counts: [
-    { rating: 5, count: 70 },
+    { rating: 5, count: 71 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
     { rating: 1, count: 1 },
   ],
   featured: [
+    {
+      id: 71,
+      rating: 5,
+      content: `
+        <p>Moe did a lift and tint for me today, she took great care and was so gentle I’ve booked my next appointment already! I did ask for extra curl, which I probably wouldn’t ask for again, but I’m more than happy with the results 😁
+</p>
+      `,
+      author: 'Ceri Jolly',
+    },
     {
       id: 70,
       rating: 5,
