@@ -6,15 +6,33 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 72,
+  totalCount: 73,
   counts: [
-    { rating: 5, count: 71 },
+    { rating: 5, count: 73 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
-    { rating: 1, count: 1 },
+    { rating: 1, count: 0 },
   ],
   featured: [
+    {
+      id: 72,
+      rating: 5,
+      content: `
+        <p>Amazing, got the classic lash extensions. Looks natural and flawless. I almost fell asleep the experience was so relaxing! Will keep going back for sure :)
+</p>
+      `,
+      author: 'Amy Jones',
+    },
+    {
+      id: 72,
+      rating: 5,
+      content: `
+        <p>My favourite place !
+</p>
+      `,
+      author: 'Linda Nguyen',
+    },
     {
       id: 71,
       rating: 5,
