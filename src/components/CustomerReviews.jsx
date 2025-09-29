@@ -16,7 +16,7 @@ const reviews = {
   ],
   featured: [
     {
-      id: 72,
+      id: 73,
       rating: 5,
       content: `
         <p>Amazing, got the classic lash extensions. Looks natural and flawless. I almost fell asleep the experience was so relaxing! Will keep going back for sure :)
