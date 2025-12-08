@@ -6,15 +6,34 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 73,
+  totalCount: 75,
   counts: [
-    { rating: 5, count: 73 },
+    { rating: 5, count: 75 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
     { rating: 1, count: 0 },
   ],
   featured: [
+    {
+      id: 75,
+      rating: 5,
+      content: `
+        <p>Moet is a true professional and incredibly lovely. I initially struggled to book an appointment before my holiday because she is so popular! When another salon canceled on me at the last minute, I reached out to Moet hoping for a miracle.
+
+Her response, even via text, was so helpful. She went above and beyond to squeeze me into her busy schedule, which I truly appreciated. The lash extensions she did were flawless and lasted perfectly. I am absolutely dedicated to Moet now—I won't let anyone else touch my lashes! She saved my holiday lashes🤭❤️</p>
+      `,
+      author: 'aly E',
+    },
+    {
+      id: 74,
+      rating: 5,
+      content: `
+        <p>BEST EXPERIENCE! BEAUTIFUL LASHES! LOVELY STAFF! By far the best place for lash extensions in cairns! I’ve been twice now and both time I have had beautiful lashes. Today I got natural classics C Curl in Doll eye style and I am over the moon. The salon is clean and relaxing and I even fell asleep getting my lashes done! So relaxing and the staff are incredibly kind and can show you diffrent options.
+THANK YOU!!! 😊 ❤️🫶🏻</p>
+      `,
+      author: 'Daisy Schotting-Robinson',
+    },
     {
       id: 73,
       rating: 5,
