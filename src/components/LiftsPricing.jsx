@@ -20,7 +20,7 @@ const tiers = [
     name: 'Lift & Tint',
     id: 'tier-lift-and-tint',
     href: 'tel:61466609975',
-    price: '$90',
+    price: '$100',
     time: '75 min',
     description:
       'Curl, define and darken lashes without extensions using a safe vegetable dye.',
@@ -37,7 +37,7 @@ const tiers = [
     name: 'Lift',
     id: 'tier-lift',
     href: 'tel:61466609975',
-    price: '$70',
+    price: '$80',
     time: '60 min',
     description: 'Define your natural lash line with a lift.',
     features: [
