@@ -6,15 +6,31 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 75,
+  totalCount: 78,
   counts: [
-    { rating: 5, count: 75 },
+    { rating: 5, count: 77 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
-    { rating: 1, count: 0 },
+    { rating: 1, count: 1 },
   ],
   featured: [
+    {
+      id: 77,
+      rating: 5,
+      content: `
+        <p>The best lash lift and tint I've ever had! My eyelashes are naturally long and they made it look like I had extensions, and no other salon has been able to compare.</p>
+      `,
+      author: 'Molly Roberts',
+    },
+    {
+      id: 76,
+      rating: 5,
+      content: `
+        <p>Will not go anywhere else. Moet has been doing my lashes fortnightly for nearly 2 years now. We have transitioned from hybrids to classics and the results are always flawless. Sessions are always on time, cost is very reasonable and results last.</p>
+      `,
+      author: 'Kristen Ziebell',
+    },
     {
       id: 75,
       rating: 5,
