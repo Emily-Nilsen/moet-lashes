@@ -790,6 +790,8 @@ export function CustomerReviews() {
                         src={review.avatarSrc}
                         alt={`${review.author}.`}
                         fill
+                        sizes="48px"
+                        unoptimized
                         className="rounded-full object-cover"
                       />
                     </div>
@@ -865,10 +867,10 @@ export function CustomerReviews() {
                             <Image
                               src={review.avatarSrc}
                               alt={`${review.author}.`}
-                              className="rounded-full"
                               fill
-                              objectFit="cover"
-                              objectPosition="center"
+                              sizes="48px"
+                              unoptimized
+                              className="rounded-full object-cover"
                             />
                           </div>
                           <div className="ml-4">
