@@ -73,8 +73,24 @@ const tiers = [
     mostPopular: false,
   },
   {
-    name: 'Wispy Lashes',
-    id: 'tier-wispy',
+    name: 'Wispy Classic',
+    id: 'tier-wispy-classic',
+    href: 'tel:61466609975',
+    price: { fullset: '$115', megaset: '$135' },
+    time: { fullset: '90 min', megaset: '120 min' },
+    description:
+      'The wispy eyelash extension is a new style of lash extension with noticeable spikes and a lush appearance.',
+    features: [
+      'The unique hybrid eyelash extensions create a smooth and feathered look',
+      'It achieves a natural-looking, more dramatic makeup look',
+      '$90 full-set infills (75 min)',
+      '$125 mega-set infills (90 min)',
+    ],
+    mostPopular: false,
+  },
+  {
+    name: 'Wispy Volume',
+    id: 'tier-wispy-volume',
     href: 'tel:61466609975',
     price: { fullset: '$135', megaset: '$155' },
     time: { fullset: '90 min', megaset: '120 min' },
@@ -83,7 +99,7 @@ const tiers = [
     features: [
       'The unique hybrid eyelash extensions create a smooth and feathered look',
       'It achieves a natural-looking, more dramatic makeup look',
-      '$110 full-set infills (75 min)',
+      '$105 full-set infills (75 min)',
       '$125 mega-set infills (90 min)',
     ],
     mostPopular: false,
