@@ -76,7 +76,7 @@ const tiers = [
     name: 'Wispy Classic',
     id: 'tier-wispy-classic',
     href: 'tel:61466609975',
-    price: { fullset: '$115', megaset: '$135' },
+    price: { fullset: '$115', megaset: '$145' },
     time: { fullset: '90 min', megaset: '120 min' },
     description:
       'The wispy eyelash extension is a new style of lash extension with noticeable spikes and a lush appearance.',
@@ -92,7 +92,7 @@ const tiers = [
     name: 'Wispy Volume',
     id: 'tier-wispy-volume',
     href: 'tel:61466609975',
-    price: { fullset: '$135', megaset: '$155' },
+    price: { fullset: '$135', megaset: '$165' },
     time: { fullset: '90 min', megaset: '120 min' },
     description:
       'The wispy eyelash extension is a new style of lash extension with noticeable spikes and a lush appearance.',
