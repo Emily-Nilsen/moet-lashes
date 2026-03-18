@@ -6,15 +6,35 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 5,
-  totalCount: 78,
+  totalCount: 80,
   counts: [
-    { rating: 5, count: 77 },
+    { rating: 5, count: 79 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
     { rating: 1, count: 1 },
   ],
   featured: [
+    {
+      id: 78,
+      rating: 5,
+      content: `
+        <p>A Taiwanese person passing by 😂
+
+I saw the comments and inquired around, and luckily I met a super elegant and beautiful girl ❤️
+
+But she was getting eyelash extensions done for a customer 👀
+
+Luckily, I didn't have an appointment and didn't have to wait too long...
+
+It was only about 3-5 minutes before it was my turn... I got a voluminous extension!
+
+It looks very beautiful, I'm very satisfied and love it 💕
+
+If I have the chance, I will definitely come back ❤️</p>
+      `,
+      author: '蓉蓉兒',
+    },
     {
       id: 77,
       rating: 5,
