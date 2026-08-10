@@ -5,16 +5,32 @@ import { Fragment, useState } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
-  average: 5,
-  totalCount: 80,
+  average: 4.9,
+  totalCount: 83,
   counts: [
-    { rating: 5, count: 79 },
+    { rating: 5, count: 80 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
-    { rating: 1, count: 1 },
+    { rating: 1, count: 3 },
   ],
   featured: [
+    {
+      id: 80,
+      rating: 5,
+      content: `
+        <p>Kazuki does the best lashes!</p>
+      `,
+      author: 'Theresa C',
+    },
+    {
+      id: 79,
+      rating: 5,
+      content: `
+        <p>10/10 service, very professional. They checked in beforehand to make sure they understood exactly what I wanted as well, from the curl to the overall aimed look that I wanted. They delivered exactly what’s shown on their website and photos. My lashes feel super lightweight, not heavy at all and easily the best set I’ve had so far.</p>
+      `,
+      author: 'Sonja Solomon',
+    },
     {
       id: 78,
       rating: 5,
@@ -257,7 +273,7 @@ THANK YOU!!! 😊 ❤️🫶🏻</p>
       content: `
         <p>I get my ideal eyelashes here every time I come. highly recommend polite and professional treatment</p>
       `,
-      author: 'Keiko',
+      author: 'Kei',
     },
     {
       id: 50,
@@ -423,7 +439,7 @@ THANK YOU!!! 😊 ❤️🫶🏻</p>
       content: `
         <p>Highly recommend! I’ve done my eyelashes many times here. She is very professional and my eyelashes lasts very long.</p>
       `,
-      author: 'Maiko',
+      author: 'Mai',
     },
     {
       id: 30,
@@ -498,7 +514,7 @@ THANK YOU!!! 😊 ❤️🫶🏻</p>
       content: `
         <p>Best lashes I've ever had. The lady was so gentle and I absolutely love the lashes! She explained all the different types, lengths and styles and made sure I got exactly what I wanted. So happy with them 😊❤️</p>
       `,
-      author: 'sally gardiner',
+      author: 'Sally Gardiner',
     },
     {
       id: 21,
@@ -564,7 +580,7 @@ THANK YOU!!! 😊 ❤️🫶🏻</p>
       content: `
         <p>Wouldn’t trust anyone else, does it exactly how I like them!</p>
       `,
-      author: 'Elena Mitchell',
+      author: 'Elena Slade',
     },
     {
       id: 1,
@@ -588,7 +604,7 @@ THANK YOU!!! 😊 ❤️🫶🏻</p>
       content: `
         <p>Moe's eyelash extension was very thorough and perfect with great care. she was very friendly and kind to me, I had a wonderful time feeling at ease. I'd like to visit there again and really recommend her to others definitely! Thank you very much for lovely time.</p>
       `,
-      author: 'Yumie Seki',
+      author: 'YUMIE',
     },
     {
       id: 4,
@@ -633,7 +649,7 @@ THANK YOU!!! 😊 ❤️🫶🏻</p>
       content: `
         <p>I get treated for classic lashes regularly. Always looks great and I’m always so relaxed during the treatment.I highly recommend Moe to everyone.</p>
       `,
-      author: 'Sarah & Reina',
+      author: 'Nat Ward',
     },
     {
       id: 9,
@@ -669,7 +685,7 @@ THANK YOU!!! 😊 ❤️🫶🏻</p>
       content: `
         <p>I treated my wife with a full set of volume lashes. She was pretty before, but now she's stunning. Great work!</p>
       `,
-      author: 'Hombre',
+      author: 'DramaQuinn & Swanny',
     },
     {
       id: 13,
@@ -677,7 +693,7 @@ THANK YOU!!! 😊 ❤️🫶🏻</p>
       content: `
         <p></p>
       `,
-      author: 'nikita yonzone',
+      author: 'alma',
     },
     // Other reviews...
   ],
