@@ -10,10 +10,6 @@ export default function Document(props) {
     >
       <Head>
         <link rel="icon" href="/images/svgs/icon.svg" />
-        <link
-          rel="stylesheet"
-          href="https://use.typekit.net/ccb1sla.css"
-        ></link>
       </Head>
       <body className="flex h-full flex-col">
         <Main />

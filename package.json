@@ -11,6 +11,9 @@
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
+    "@fontsource-variable/nunito-sans": "^5.3.0",
+    "@fontsource-variable/playfair-display": "^5.3.0",
+    "@fontsource-variable/quicksand": "^5.3.0",
     "@headlessui/react": "^1.7.8",
     "@heroicons/react": "^2.0.14",
     "@lottiefiles/lottie-player": "^1.7.1",

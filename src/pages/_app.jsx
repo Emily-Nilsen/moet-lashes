@@ -1,4 +1,5 @@
 import 'focus-visible'
+import '@/styles/fonts.css'
 import '@/styles/tailwind.css'
 import Head from 'next/head'
 
