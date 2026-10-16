@@ -6,9 +6,9 @@ import { Menu, Transition } from '@headlessui/react'
 
 const reviews = {
   average: 4.9,
-  totalCount: 83,
+  totalCount: 84,
   counts: [
-    { rating: 5, count: 80 },
+    { rating: 5, count: 81 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
